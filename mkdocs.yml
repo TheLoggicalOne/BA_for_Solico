@@ -65,8 +65,7 @@ nav:
   - 'Syllabus & Schedule': 'syllabus.md'
   - 'Weekly Sessions':
     - 'Week 1: Kickoff & The Big Picture': 'weeks/week01.md'
-    - 'Week 2: Data Analysis Fundamentals': 'weeks/week02.md'
-    - 'Week 3: Probability & Decisions': 'weeks/week03.md'
+    - 'Week 2: From Decision Making to Optimization': 'weeks/week02.md'
     # ... add all 14 weeks here
   - 'Resources & Tools': 'resources.md'
   - 'Projects & Competition': 'projects.md'

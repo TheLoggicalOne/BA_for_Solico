@@ -1,8 +1,181 @@
-Great! You're designing the **second session** of your *Business Analytics* course, and you want to:
+- From Real World to a Mathematical Model
+
+ - how can we convert it to a problem that makes sense and apply mathematicals tools to solve them
+---
+
+That's a strong starting point! Let's turn your raw ideas into  
+**engaging, thought-provoking problems** that challenge learners to think about:
+
+1. **Real-life decision-making**
+2. **Quantifying preferences and values**
+3. **The necessity and limitation of mathematical models**
+
+Below are **three well-structured, motivating problem scenarios** with framing questions and  
+follow-up ideas. You can use them for group discussion, modeling exercises, or simulation  
+assignments later in the course.
 
 ---
 
-### 🎯 **Session Goals**
+## 🚗 Problem 1: **Buying a Car – What’s the Right Car for You?**
+
+### **Scenario**
+
+- Assume that you are decision scientist and decision making expert, helping people to make best   
+"car buying decisions".
+       - You are your first customer
+- How should you make this decision? 
+- Can you convert this problem to quantitative one?
+
+**Do you need a car at all?**
+If yes, which one should you buy?
+
+---
+
+### **Discussion Starters**
+
+* What **criteria** matter most to you? (e.g., cost, comfort, fuel efficiency, resale value, social  
+status, safety, maintenance cost, long-term flexibility)
+* Can you **rank or assign weights** to your preferences?
+* Can you **measure** these things objectively? If not, how would you estimate them?
+* What **trade-offs** are involved? (e.g., new car = peace of mind vs. used car = cheaper now)
+* How would you **model this decision**?
+
+---
+
+### **Challenge**
+
+> Build a simple multi-criteria decision model for your top 3 car options. Assign weights to your  
+values and score each option.
+
+---
+
+### **Key Learning Themes**
+
+* Decision modeling
+* Quantifying qualitative preferences
+* Multi-criteria decision making
+* Subjectivity and uncertainty in modeling
+* Sensitivity analysis: what happens if weights change?
+
+---
+
+## 🧮 Problem 2: **Which Loan Offer Should You Take?**
+
+### **Scenario**
+- Assume that you are decision scientist and decision making expert, helping people to make best   
+"financial decisions".
+       - You are your first customer
+You need a loan of 1 billion toman.
+You have **two offers**:
+
+* Bank A offers: 1B toman, repaid in 24 monthly installments of 60M each
+* Bank B offers: 1B toman, repaid in 36 monthly installments of 45M each
+
+You plug these into an IRR calculator(This is by far easiest part of the job in 2025)
+
+> Bank A: **Effective interest rate = 20% per year**
+> Bank B: **Effective interest rate = 25% per year**
+
+So: “Bank A is better. Lower interest.”
+
+But is that the full story?
+
+---
+
+### **Discussion Starters**
+
+* What is **IRR**, and what does it mean in this context?
+* Is interest rate the only factor that matters?
+* What about your **cash flow** flexibility?
+* What if inflation is high or uncertain?
+* 
+
+---
+
+### **Challenge**
+
+> Build a small cash flow model for both loans. Explore scenarios where a higher interest loan  
+might be better (e.g., more flexibility, lower early payments).
+
+---
+
+### **Key Learning Themes**
+
+* Time value of money (TVM), cash flow modeling
+* Present value vs. internal rate of return
+* Importance of context in interpreting model results
+* Model limitations (e.g., assumes fixed future, ignores risk)
+
+---
+
+## 📈 Problem 3: **How Should You Allocate Your Marketing Budget?**
+
+### **Scenario**
+
+You are the marketing lead for a product with a 100 million toman budget. You have 3 possible channels:
+
+* **Instagram influencers**
+* **Search ads (Google)**
+* **TV ads**
+
+Your previous data shows:
+
+| Channel   | Cost per 1K reach | Expected conversion rate |
+| --------- | ----------------- | ------------------------ |
+| Instagram | 50K toman         | 4%                       |
+| Google    | 100K toman        | 8%                       |
+| TV        | 300K toman        | 2%                       |
+
+But these numbers are averages. Conversion varies by season, target segment, and message.
+
+---
+
+### **Discussion Starters**
+
+* How would you **allocate** your budget?
+* What’s your **objective**? Maximize conversions? Awareness? Long-term value?
+* What assumptions are you making?
+* What if your past data is **biased** or outdated?
+* What about **uncertainty** or **competitor response**?
+
+---
+
+### **Challenge**
+
+> Build a simple budget allocation model based on expected ROI per channel. Then run a **simulation** where conversion rates vary randomly.
+
+---
+
+### **Key Learning Themes**
+
+* Data-driven decision making
+* Assumptions and their risks
+* Sensitivity to data quality
+* Optimization under uncertainty
+* When to trust the model and when to be skeptical
+
+---
+
+## 🧭 Optional Follow-up Questions (All Problems)
+
+* What would you ask from a **data analyst** to help improve your decision?
+* Can **AI help** you here? If so, what part of the decision? If not, why?
+* What part of the decision needs **human judgment**?
+
+---
+
+Would you like me to turn these into:
+
+* A printable handout or slide set?
+* Excel / Python / Jupyter examples for one or more of them?
+* A group activity format (discussion + model + presentation)?
+
+Let me know how you'd like to run this session.
+
+
+
+
+## 🎯 **Session Goals**
 
 * Show the **big picture of decision making**
 * Emphasize the role of **mathematical models** in supporting decisions
@@ -15,7 +188,7 @@ Great! You're designing the **second session** of your *Business Analytics* cour
 
 ## 🧠 1. Conceptual Anchor: Decision = Model + Judgment
 
-Open the session with this:
+
 
 > "All models are wrong, but some are useful." – George Box
 
