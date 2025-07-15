@@ -1,6 +1,6 @@
 # Project information
 site_name: "Business Analytics: Data Analysis & Decision Making"
-site_url: "https://thloggicalone.github.io/BA_forSolico/" # Replace with your GitHub Pages URL
+site_url: "https://thloggicalone.github.io/BA_for_Solico/" # Replace with your GitHub Pages URL
 site_author: "Ali Hosseipuran"
 site_description: "Course materials for the Business Analytics training program at Solico Group."
 
@@ -20,18 +20,20 @@ theme:
   favicon: assets/logo.png
   palette:
     # Palette toggle for light/dark mode
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
   features:
     - navigation.instant
     - navigation.tracking
@@ -59,7 +61,7 @@ markdown_extensions:
 # Navigation Structure
 nav:
   - 'Home': 'index.md'
-  - 'Course Philosophy': 'philosophy.md'
+  - 'Modern Analyst Mindset': 'mindset.md'
   - 'Syllabus & Schedule': 'syllabus.md'
   - 'Weekly Sessions':
     - 'Week 1: Kickoff & The Big Picture': 'weeks/week01.md'
