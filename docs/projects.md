@@ -20,7 +20,8 @@ This is a chance to put everything together in a collaborative and competitive e
 ## "Best Problem" Award
 To encourage real-world thinking and connect our learning directly to Solico's goals, we will have a "Best Problem" award.
 
--   **Submission Deadline:** By the end of Week 3.
+-   **Submission Deadline:** By the end of Week 5.
 -   **Task:** Each participant must propose one business problem or opportunity within Solico Group that could be addressed using the methods from this course.
+    - You could suggest up to 3 problems, at different stages and choose the best one with our help
 -   **Criteria:** The idea should be well-formulated (clearly defining the problem, the potential data, and the expected impact) and impactful.
 -   **Award:** The most impactful and well-formulated idea will win the Best Problem Award. This is a great opportunity to get expert feedback on a problem that matters to you and the company.

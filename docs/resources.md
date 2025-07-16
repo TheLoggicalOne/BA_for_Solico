@@ -7,6 +7,9 @@ As we cover new topics, I will post links to relevant articles and concept notes
 
 -   **Article 1:** *The Role of the Data Scientist in the Age of AI* (Coming Soon)
 
+## Session Notes and Slides
+- 
+
 ## Jupyter Notebooks
 For certain topics, I will provide optional Jupyter (Python) Notebooks to demonstrate concepts visually or show an end-to-end analysis. These are for enrichment and do not require any programming knowledge to understand the key takeaways.
 

@@ -18,7 +18,7 @@ This is the course hub for the 14-week training program at Solico Group on:
 - Check this page for latest updates and To Do
 
 - Work on weekly problems and thinking problems
-- Find real problems in your life and your job that are really interesting to you, you could suggest problem here:
+- Find real problems in your life and your job that are really interesting to you, you could suggest your problem [here](Do you know of an interesting, real-world decision-making problem that could benefit from a "Solico" (Scientific/Logical/Quantitative) approach? Share it here! Your suggestions could become future case studies or assignments in this course):
 - Constantly think about mathematical models that you use and their limitation in presenting real world factors and relations
 - Find an interesting projects to work on
 
