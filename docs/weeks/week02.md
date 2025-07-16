@@ -7,51 +7,140 @@
 
 ---
 
-That's a strong starting point! Let's turn your raw ideas into  
-**engaging, thought-provoking problems** that challenge learners to think about:
+These
+**engaging, thought-provoking problems**  challenge you to think about:
 
 1. **Real-life decision-making**
 2. **Quantifying preferences and values**
 3. **The necessity and limitation of mathematical models**
 
-Below are **three well-structured, motivating problem scenarios** with framing questions and  
-follow-up ideas. You can use them for group discussion, modeling exercises, or simulation  
-assignments later in the course.
+Below are some  **well-structured, motivating problem scenarios** with framing questions and  
+follow-up ideas. 
 
 ---
-## Problems to think about
 
-### 🚗 Problem 1: **Buying a Car – What’s the Right Car for You?**
+## **Mini Intro: “What is a Mathematical Model?”**
 
+### 🧮 **Definition**
+
+> A _mathematical model_ is a simplified representation of a real-world situation using numbers, equations, relationships, or logic.
+
+>Mathematical modeling is the art of translating real-world problems into the language of mathematics. The goal is to create a simplified representation of reality—a "model"—that helps us understand a problem, make predictions, or decide on a course of action. A model is like a map: it's not the actual territory, but it's incredibly useful for navigating it.
+
+The simplest model we have is a number. But even with something so simple, the choice of which number to use, and how to use it, is a critical part of the modeling process.
+
+---
+
+### ✂️ **All models simplify**
+
+- We **strip away** some complexity to make problems tractable.
+    
+- We **measure** things with numbers (cost, growth, risk…).
+    
+- Every model comes with **assumptions** — some are **explicit**, others **hidden**.
+    
+
+---
+
+## 🧠 🧠 🧠 Problems to think about 🧠 🧠 🧠 
+### **Problem 1:** In each of following scenarios, try to make sense of numbers, explain what they say about real world, what are their limitation
+---
+#### 🧠 **Problem 1.a:**  Imagine two popular YouTubers.
+
+- Channel A has 10 million views on a video posted 2 years ago.
+
+- Channel B has 1 million views on a video posted 1 week ago.
+
+Think about it: Which channel is more "successful" right now? Why is simply comparing the total views (10 million vs. 1 million) a poor model for current popularity? What "per unit" model, like views per day, would be more useful?
+
+---
+#### 🧠 **Problem 1.b:** Consider two companies' profits last year and this year. 📈
+- We use numbers to describe growth or decline. But how we frame that change dramatically alters the story.
+
+
+- Company A: Profit grew from €1 million to €2 million.
+
+- Company B: Profit grew from €50 million to €55 million.
+
+Think about it:
+
+
+
+- Which company had a better performance?
+- Which company had better CEO?
+- Which one would you invest in?
+
+---
+
+
+###  🧠 **Problem 1.c:**🏷️ _"The price of this apartment is 100M toman per square meter"_
+
+> 🔹 What does "per square meter" mean here?  
+> 🔹 Are all square meters equal? (corner units, sunlight, noise...)  
+> 🔹 Does this average hide something important?
+
+---
+
+#### 🧠 **Problem 1.d:** 🗞️  “Under President Obama, **women account for 92.3% of the jobs lost**.” 
+
+In 2012, during the U.S. presidential campaign, **Mitt Romney's team** made this claim.
+
+This was a real number, widely quoted, even repeated on news channels, and are correct according to Bureau of Labor Statistics
+    
+Indeed, **men lost ~57,000 jobs**, and **women lost ~683,000**  
+➡️ So, **683k / (683k + 23k) ≈ 92.3%** 
+
+---
+
+#### 🧠 **Problem 1.e:** 📖 The Story: _“We Created Half of All U.S. Jobs!”_
+
+In **June 2011**, the **Republican Party of Wisconsin** put out a press release celebrating the state’s economic success under Republican Governor Scott Walker.  
+They claimed:
+
+> “**Wisconsin created half of all new jobs in America last month.**”
+
+Sounds **incredible**, right?
+
+---
+### 🧠 **Problem 2:** 🏘️ **Example: Comparing Three Apartments**
+
+| Apartment | Total Price (Toman) | Area (m²) | Price per m² (Toman) |
+| --------- | ------------------- | --------- | -------------------- |
+| A         | 4,800,000,000       | 60        | 80,000,000           |
+| B         | 6,000,000,000       | 75        | 80,000,000           |
+| C         | 6,800,000,000       | 100       | 68,000,000           |
+
+
+---
+
+
+### 🧠 **Problem 2:** 🚗 : **Buying a Car – What’s the Right Car for You?**
+**Do you need a car at all?**
+If yes, which one should you buy?
 #### **Scenario**
 
 - Assume that you are decision scientist and decision making expert, helping people to make best "car buying decisions".
    - You are your first customer, 
-- How should you make this decision? 
+- How should you make this decision? How can you help other people in their "car buying decisions"?
 - Can you convert this problem to a quantitative one?
 
-**Do you need a car at all?**
-If yes, which one should you buy?
 
----
 
 #### **Discussion Starters**
 
-* What **criteria** matter most to you? (e.g., cost, comfort, fuel efficiency, resale value, social  
-status, safety, maintenance cost, long-term flexibility)
+* What **criteria** matter most to you? (e.g., price, cost, comfort, fuel efficiency, resale value, social status, safety, maintenance cost, long-term flexibility)
 * Can you **rank or assign weights** to your preferences?
 * Can you **measure** these things objectively? If not, how would you estimate them?
 * What **trade-offs** are involved? (e.g., new car = peace of mind vs. used car = cheaper now)
 * How would you **model this decision**?
 
----
+
 
 #### **Challenge**
 
 > Build a simple multi-criteria decision model for your top 3 car options. Assign weights to your  
 values and score each option.
 
----
 
 #### **Key Learning Themes**
 
@@ -63,7 +152,7 @@ values and score each option.
 
 ---
 
-### 🧮 Problem 2: **Which Loan Offer Should You Take?**
+### 🧠 **Problem 3:** 🧮 **Which Loan Offer Should You Take?**
 
 #### **Scenario**
 - Assume that you are decision scientist and decision making expert, helping people to make best   
@@ -72,8 +161,9 @@ values and score each option.
 You need a loan of 1 billion toman.
 You have **two offers**:
 
-* Bank A offers: 1B toman, repaid in 24 monthly installments of 60M each
-* Bank B offers: 1B toman, repaid in 36 monthly installments of 45M each
+- Bank A offers: 1B toman, repaid in 24 monthly installments of 60M each
+
+- Bank B offers: 1B toman, repaid in 36 monthly installments of 45M each
 
 You plug these into an IRR calculator(This is by far easiest part of the job in 2025)
 
@@ -94,14 +184,14 @@ But is that the full story?
 * What if inflation is high or uncertain?
 * 
 
----
+
 
 #### **Challenge**
 
 > Build a small cash flow model for both loans. Explore scenarios where a higher interest loan  
 might be better (e.g., more flexibility, lower early payments).
 
----
+
 
 #### **Key Learning Themes**
 
@@ -110,13 +200,13 @@ might be better (e.g., more flexibility, lower early payments).
 * Importance of context in interpreting model results
 * Model limitations (e.g., assumes fixed future, ignores risk)
 
----
 
-### 📈 Problem 3: **How Should You Allocate Your Marketing Budget?**
+
+### 🧠 **Problem 4:** 📈 **How Should You Allocate Your Marketing Budget?**
 
 #### **Scenario**
 
-You are the marketing lead for a product with a 100 million toman budget. You have 3 possible channels:
+You are the marketing lead for a product with a 100 Billion toman budget. You have 3 possible channels:
 
 * **Instagram influencers**
 * **Search ads (Google)**
@@ -130,9 +220,9 @@ Your previous data shows:
 | Google    | 100K toman        | 8%                       |
 | TV        | 300K toman        | 2%                       |
 
-But these numbers are averages. Conversion varies by season, target segment, and message.
+What should you do?
 
----
+
 
 #### **Discussion Starters**
 
@@ -142,13 +232,13 @@ But these numbers are averages. Conversion varies by season, target segment, and
 * What if your past data is **biased** or outdated?
 * What about **uncertainty** or **competitor response**?
 
----
+
 
 #### **Challenge**
 
 > Build a simple budget allocation model based on expected ROI per channel. Then run a **simulation** where conversion rates vary randomly.
 
----
+
 
 #### **Key Learning Themes**
 
@@ -158,7 +248,7 @@ But these numbers are averages. Conversion varies by season, target segment, and
 * Optimization under uncertainty
 * When to trust the model and when to be skeptical
 
----
+
 
 ### 🧭 Optional Follow-up Questions (All Problems)
 
