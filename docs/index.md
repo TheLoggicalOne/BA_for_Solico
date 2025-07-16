@@ -6,35 +6,32 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Data Analysis
     - Decision Modeling
 
-## What should you do?
-- Check Below for latest updates and To Do
-- Be patient! Learning deep concepts is difficult and gradual, keep trying patiently, it will finally click. 
-- Work on weekly problems and thinking problems
-- Find real problems in your life and your job that are really interesting to you, you could suggest problem here:
-- Constantly Think about mathematical models that you use and how much they represent reality
-- Find an interesting projects to work on
-
 ## Latest Updates and To Do
 
-### Prepare for Week 2:
+### Prepare for Week 2: 
+- Go to [week 2](weeks/week02.md) page:
+       - read the overview and goals
+       - start working on problems
 
-#### From a real world decision making prbolem, to a mathematical model
-- Most common, and simple, mathematical model that we use to model real world, are numbers and percentages. We use them to measure things, value things, compare them, analyze their change
-    - Find some examples that you use numbers. Do numbers present the reality perfectly?
-    - example: 
+### Answer to week one survey [here](https://docs.google.com/forms/d/e/1FAIpQLScLntM5uW4noI-TEfzy3S2Q-mBXUwgUC7vyZ-BfoD6pxrf5hg/viewform?usp=dialog)
+## What should you do as a learner?
+- Check this page for latest updates and To Do
+
+- Work on weekly problems and thinking problems
+- Find real problems in your life and your job that are really interesting to you, you could suggest problem here:
+- Constantly think about mathematical models that you use and their limitation in presenting real world factors and relations
+- Find an interesting projects to work on
+
+- Help us make the course better by sharing your thought, suggestions, feedback and critique
+       - For General Feedback, Suggestions & Critique go [here](https://docs.google.com/forms/d/e/1FAIpQLSc8HgdzPOfXLeA-DdmZKH_e_2bcZX5spWLgaPUicsoSgSpqxA/viewform?usp=header)
+       - Fill weekly survey and quizes , you could find them in each week page
+
+- Be patient! Learning deep concepts is difficult and gradual, keep trying patiently, it will finally click. 
+
+- Think, Think, Think....Think about your thinking
 
 
-### Big Picture of Decision Making (Framework)
-```css
-[Real-World Problem]
-       ↓
-[Understanding / Assumptions]
-       ↓
-[Modeling] → [Computation / Optimization / Simulation]
-       ↓
-[Interpretation / Insights]
-       ↓
-[Real-World Action / Decision]
-       ↓
-[Feedback & Revision]
-```
+
+
+
+

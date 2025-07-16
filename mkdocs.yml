@@ -63,7 +63,12 @@ nav:
   - 'Home': 'index.md'
   - 'Modern Analyst Mindset': 'mindset.md'
   - 'Syllabus & Schedule': 'syllabus.md'
-  - 'Weekly Sessions': 'weeks/index.md'
+  - 'Weekly Sessions':
+    - 'Overview': 'weeks/index.md' # This is your "Weekly Sessions" overview page
+    - 'Week 1: Kickoff & The Big Picture': 'weeks/week01.md' # Explicitly list each week
+    - 'Week 2: From Decision Making to Optimization': 'weeks/week02.md'
+    - 'Week 3: Data Elicitation & Quantification': 'weeks/week03.md'
+    - 'Week 14: Final Projects & Future of Solico': 'weeks/week14.md'
   - 'Concepts & Principles': 'concepts/index.md'
     # ... add all 14 weeks here
   - 'Resources & Tools': 'resources.md'
