@@ -3,6 +3,7 @@
 
 ## Problems
 #### Revisit example EXAMPLE  1.1 ORDERING NCAA T-SHIRTS of the book(page 9)
+- This is the example that we worked in week 2 class, it is from the book, but we are generalizing it(as we did in class)
 - Here is the question if you forgot:
 ??? note 
     It is March, and the annual NCAA Basketball Tournament is down to the final four teams. Randy  
