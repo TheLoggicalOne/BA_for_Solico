@@ -8,6 +8,17 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 ## Latest Updates and To Do
 
+### Prepare for Week 3 , Continue work on week 2 Class and Prolems
+- Work on [this spreadsheet](https://docs.google.com/spreadsheets/d/1PHpVPqGiuEuHjzC6EJMEaztyuwrnXobEEHUBNRirstM/edit?usp=sharing) online, you will see the problem with using percentages when  
+quantities can be negative
+       - I am not satisfied with how I explained this concept in class, I hope it will click when  
+       you work with  numbers yourself
+- You can download all excel files form [here](https://drive.google.com/drive/folders/1RuTdPAAchJs_Ki-M3ssc4E8CTPgHc8xQ?usp=sharing) (if you did not get them from Ms Tardast)
+- start working on excersiese and thinking problem in [week 3](weeks/week03.md) page
+- You should start working on them as soon as possible, so that you could ask your question in  
+Wednesday office hours
+
+
 ### Prepare for Week 2: 
 - Go to [week 2](weeks/week02.md) page:
        - read the overview and goals
