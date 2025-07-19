@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.uv/
+
+# VS Code
+.vscode/
+
+# MkDocs build
+site/
+
+# Logs and system files
+*.log
+*.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python packaging
+*.manifest
+*.spec
+
+# mkdocs-material plugins cache
+.mypy_cache/
+.pytest_cache/
+.cache/
