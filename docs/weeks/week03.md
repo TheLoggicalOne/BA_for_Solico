@@ -80,7 +80,7 @@ value so we should assume demand is 1500, and then find optimal order for this d
 
 
 #### In reality,Future demand is uncertain, what is the best thing we could hope to know about demand?
-
+- How should we solve decision making problems that depend on future uncertain demand(or any other variable that is uncertain)?
 #### What if we have data?
 - in this version, we don't know anything magical about demand, the only thing that we know is  
 history of our previus three years demand at the same event:
