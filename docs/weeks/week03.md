@@ -2,7 +2,7 @@
 
 
 ## Problems
-#### Revisit example EXAMPLE  1.1 ORDERING NCAA T-SHIRTS of the book(page 9)
+#### Revisit  EXAMPLE  1.1 of the book(page 9), ORDERING NCAA T-SHIRTS 
 - This is the example that we worked in week 2 class, it is from the book, but we are generalizing it(as we did in class)
 - Here is the question if you forgot:
 ??? note 
@@ -16,18 +16,17 @@
     is thinking about ordering 1450 T-shirts, but he wants to build a spreadsheet model that will  
     let him experiment with the uncertain demand and his order quantity. How should he proceed?
 
-- we will consider three different version of this problem, in each of following versions explain:
+- we will consider five different version of this problem, in each of following versions explain:
     - what are inputs? 
     - what are decision variables?
     - what is our exact objective? 
 - You will need to use Excel, or Google Sheet, or LibreOffice or Python or...
 
-#### Deterministic Version
-
+#### Version 1: Deterministic demand
 - In first version, we are sure about future demand! we know for a fact that future demand  
-will be 15000
+will be 1500
 - using a excel file that relates all variables together(this is spreadsheet model or mathematical  
-model!) change value of different inputs and decision variable and see how objective changess
+model!) change value of different inputs and decision variable and see how objective changes
 - find optimal choice for decision variable(the value for order that maximizes objective)
 - How does changing fixed cost affect our choice?
     - How about sell price?
@@ -38,7 +37,7 @@ model!) change value of different inputs and decision variable and see how objec
     - what about profit and order?
     - what about profit and demand?
 
-#### Three way fair dice Version
+#### Version 2: Three way fair dice
 - In this version, we know for a fact that Demand will have only three possiblity, all of them  
 equally likely
 
@@ -58,7 +57,7 @@ single objective function?
 - One crazy guy says that the best choice is to order 2000, can you convince him that he is wrong?
 
 
-#### Three way unfair diceVersion
+#### Version 3: Three way unfair dice 
 - In this version, we know for a fact that Demand will have only three possiblity, with following  
 probailities
 
@@ -68,7 +67,7 @@ probailities
 |Medium Interest |1,500|35%|
 |High Interest|2,000|25%|
 
-#### Unifrom Random Version
+#### Version 4: Unifrom Random 
 - In this version, we know (for a fact!) that demand is a number between 500 to 2500, and it could  
 be any of these numbers, all with same chance
 - again, The data analyst, says that when we face a random variable, our best guess is its average  
@@ -81,7 +80,7 @@ value so we should assume demand is 1500, and then find optimal order for this d
 
 #### In reality,Future demand is uncertain, what is the best thing we could hope to know about demand?
 - How should we solve decision making problems that depend on future uncertain demand(or any other variable that is uncertain)?
-#### What if we have data?
+#### Version 5: With data
 - in this version, we don't know anything magical about demand, the only thing that we know is  
 history of our previus three years demand at the same event:
 
