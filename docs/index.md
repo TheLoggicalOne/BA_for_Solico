@@ -8,6 +8,9 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 ## Latest Updates and To Do
 
+### Prepare for week 4, Continue on week 3 class and prolems
+- start working on [week 4 page](weeks/week04.md) 
+- Continue working on [week 3 problems](weeks/week03.md) 
 ### Prepare for Week 3 , Continue working on week 2 Class and Problems
 - Work on [this spreadsheet](https://docs.google.com/spreadsheets/d/1PHpVPqGiuEuHjzC6EJMEaztyuwrnXobEEHUBNRirstM/edit?usp=sharing) online, you will see the problem with using percentages when  
 quantities can be negative
