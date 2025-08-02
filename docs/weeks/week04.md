@@ -1,7 +1,7 @@
 # Prepare for Week 4
 # 🧠 Week 4 – Decision Making Under Uncertainty: From Playing the Averages & to Playing the distributions
 
-## 🧩 Part 1 – What Do You Do When You Face Uncertainty?
+## 🧩 Part 1 – What Do You Do When You Face Uncertainty? Start Thiking
 
 - Many of our decisions, depend on variables that are not deterministic, or even if they are, we  
 don't know their value, so we are uncertain aout their value
@@ -75,3 +75,8 @@ In August, Walton Bookstore must decide how many of next year’s nature calenda
 - How good is this strategy?
 - When does this strategy work?
 - Think about reasons and situations that this strategy fails 
+
+
+## 🧩 Part 1 – What Do You Do When You Face Uncertainty?
+### Do not fall for flaw of averages
+- see [Flaw of Averages](concepts/flaw_of_averages.md)
