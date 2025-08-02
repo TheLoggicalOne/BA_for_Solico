@@ -77,6 +77,80 @@ In August, Walton Bookstore must decide how many of next year’s nature calenda
 - Think about reasons and situations that this strategy fails 
 
 
-## 🧩 Part 1 – What Do You Do When You Face Uncertainty?
-### Do not fall for flaw of averages
-- see [Flaw of Averages](concepts/flaw_of_averages.md)
+##  What Do You Do When You Face Uncertainty? Do not fall for flaw of averages
+## Summary
+- as explained by de Neufville in MIT Decision Analysis ans Risk Management course
+### what is it?
+- a fundamental problem in the design and evaluation of projects
+- The patern of designing, evaluating projects based on the average, "most likely" future forecast
+- Derives from misunderstanding of probability and systems behavior
+### The name
+- A pun by Sam Savage(See the book "Flaw of Averages, 2009")
+- A mistake -> Flaw
+- The concept of the "Law of averages that things balance out on averages
+
+### What is the Flaw?
+The error consist of assuming analyses based on "average" or "most likely" conditions give correct answer
+
+### Mathematics of Flaw:
+- $E[f(x)] \neq f(E(X))$
+- See also Jensen Inequality
+- where $E(x)$ is expected value of $x$
+
+### Flaw of averages in words
+- Average of all possible outcomes associated with uncertain parameters, generally does not equall  
+the value obtained from using the average value of the parameters
+
+## What Do You Do When You Face Uncertainty? Use expected value of your deterministic objective
+- In version 2 of NCCA Tshirt problem, instead of profit, we considered expected profit as our   
+ojective, and we find the order that maximizes this objective profit
+- The expected monetary value, or EMV, for any decision is a weighted average of the possible  
+payoffs/costs for this decision, weighted by the probabilities of the outcomes. Using the EMV  
+criterion, you choose the decision with the largest EMV. This is sometimes called “playing the averages.”
+- If your objective is utility, use expected utility! more generally use "expected value of  
+objective
+
+## Are you ok with using Expected manoetary average as your objective?
+- consider version 2 of NCCA Tshirt problem
+### The prolem is beyond risk
+#### Your real objective is utility, not money
+- Even if you are risk neutral with respect to utility, just because of  
+"law of diminishing rate of return" or convexity(non-linearity) of utility with respect to money  
+(profit in NCCA Tshirt problem), you will still suffer from flaw of averages if you treat EMV is  
+your ultimate objective, while your real objective is utility
+- we are using money(profit) to represent our real objective which is actually utility. What really  
+causes the problem is that utility has non-linear relation with money(more specifically convex)
+- We should always be aware of convexity of utility(and many other objectives) with respect to  
+different values. This is related to law of diminishing rate of retruns
+- If you are thinking, for businesses, we don't have this problem, think again! 
+#### Your real objective is not single period-short term
+- We are using static profit, a single period short-term profit
+- What is our real objective?
+- It is profit and value of our business not just this period, but for long run
+- Again, the real problem is: Relation between long-term profit(our real objective) and short term profit(objective that we used) is non-linear and complex...so we are fooled y flaw of averages again....
+### Expected value is only for your final ultimate real objective
+
+
+
+## What Do You Do When You Face Uncertainty? Think in terms of random variables and distribution
+- This is the right approach
+- Consider NCCA Tshirt problem, we need to answer following questions:
+- How likely is that:
+    - Demand is lower than 1000
+    - Demand is lower than 500
+    - Demand is higher than 2000
+    - Profit is lower that 0
+    - Profit is lower than 5000
+    - Profit is higher than 10000
+- To make optimal decisions, and answer all the questions that we have, we need proability distribution
+of any variable of interest
+
+## Embrace the uncertainty
+
+## What Do You Do When You Face Uncertainty? Create a magical expriment generator device
+- yes simulation is the cheat code to exprience, and is more easier than ever thaks to probability  
+and computer!
+
+
+
+
