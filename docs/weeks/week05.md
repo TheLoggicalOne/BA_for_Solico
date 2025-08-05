@@ -1,13 +1,13 @@
 # Prepare for Week 5
 ## Problems
-#### P1. Solve version 4 of NCAA T-shirt problem
+#### **Problem 1:** Solve version 4 of NCAA T-shirt problem
 - Here is [version 4](weeks/week03/#version-4-unifrom-random)
 - You could do exactly what we did for version 3, only instead of 3 possible scenario for demand,  
 consider 2000 possible scenario for demand!
 - Remember,  if you could do it for more than one case, you could do it for 2000 or 2 million or cases!
     - This is one of super powers of spreadsheet or mathematical modeling using computer, 
 - If you could do it one time, you could do it one billion time!
-#### P2. Go Beyond EMV in version 4 of NCAA T-shirt problem
+#### **Problem 2:** Go Beyond EMV in version 4 of NCAA T-shirt problem
 - Review how well EMV(expected monetary profit) represent our real world preferences and objectives
 - in each of following cases, find the optimal order!
 ##### version 4.1: Fix cost for low profit
@@ -95,7 +95,7 @@ be any of these numbers, all with same chance
 |2021 |1700|
 
 
-#### Problem 6: Work on EXAMPLE 15.1 ORDERING CALENDARS AT WALTON BOOKSTORE page 736 of the book
+#### Problem 7: Work on EXAMPLE 15.1 ORDERING CALENDARS AT WALTON BOOKSTORE page 736 of the book
 - solve it Using excel file for NCAA T-shirt problem!
 - could you generalize this frame work?
 
