@@ -9,7 +9,7 @@ This is the course hub for the 14-week training program at Solico Group on:
 ## Latest Updates and To Do
 ### Prepare for week 5, continue working of previous weeks class and problem
 - start working on [week 5 page](weeks/week05.md) 
-
+- Continue working on previous weeks problems
 ### Prepare for week 4, Continue on week 3 class and prolems
 - start working on [week 4 page](weeks/week04.md) 
 - Continue working on [week 3 problems](weeks/week03.md) 
