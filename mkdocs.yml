@@ -65,7 +65,7 @@ markdown_extensions:
   - toc:
      permalink: true 
   - pymdownx.arithmatex:
-     inline_syntax : true
+     inline_syntax : ['dollar', 'round']
      generic: true      
 
 # Navigation Structure
@@ -83,3 +83,12 @@ nav:
     # ... add all 14 weeks here
   - 'Resources & Tools': 'resources.md'
   - 'Projects & Competition': 'projects.md'
+
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+  - js/math.js  # your custom initialization file
