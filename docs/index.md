@@ -7,6 +7,8 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Decision Modeling
 
 ## Latest Updates and To Do
+### Prepare for week 5, continue working of previous weeks class and problem
+- start working on [week 5 page](weeks/week05.md) 
 
 ### Prepare for week 4, Continue on week 3 class and prolems
 - start working on [week 4 page](weeks/week04.md) 
