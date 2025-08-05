@@ -66,11 +66,11 @@ from first princilples!
 
 #### Problem 5: Solve combination of version 4 and 6 of NCAA T-shirt problem!
 ##### version 46: 
-- In this version, we know (for a fact!) that demand is a number between 500 to 2500, and it could  
-be any of these numbers, all with same chance 
+- In this version, we know (for a fact!) that demand is a number between $ m-1000 $ to $ m+1000 $, and  
+it could be any of these numbers, all with same chance 
+- But we don't value of $ m $
 
-
-- also,we know ishistory of our previus three years demand at the same event:
+- also,we know history of our previus three years demand at the same event:
 
 
 |Year|Demand|
