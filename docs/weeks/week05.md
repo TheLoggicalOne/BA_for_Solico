@@ -51,4 +51,52 @@ You have **two offers**:
 You plug these into an IRR calculator(This is by far easiest part of the job in 2025)
 
 > Bank A: **Effective interest rate = 20% per year**
-> Bank B: **Effective interest rate = 25% per year**
+> Bank B: **Effective interest rate = 23% per year**
+
+Which one is better? 
+Try to solve this problem without any financial function or calculator, directly,  
+from first princilples!
+
+#### Problem 4: Solve version 6 of NCAA T-shirt problem!
+##### Version 6: We have 3000 potential customer
+- Each of them has a 50% chance of buying a T-shirt
+- what is the optimal order in this version?
+
+- Is our assumption realistic? how can we make it more realistic?
+
+#### Problem 5: Solve combination of version 4 and 6 of NCAA T-shirt problem!
+##### version 46: 
+- In this version, we know (for a fact!) that demand is a number between 500 to 2500, and it could  
+be any of these numbers, all with same chance 
+
+
+- also,we know ishistory of our previus three years demand at the same event:
+
+
+|Year|Demand|
+|---|---|
+|2024 |1400|
+|2023 |2000|
+|2022 |1600|
+|2021 |1700|
+
+- what is the optimal order in this version? 
+- How real are our assumptions? How can we make them better?
+#### Problem 6: Solve combination of version 5 and 6 of NCAA T-shirt problem!
+##### version 56: 
+- we have 3000 potential customer, Each of them has a 50% chance of buying a T-shirt
+- also,we know is history of our previus three years demand at the same event:
+
+|Year|Demand|
+|---|---|
+|2024 |1400|
+|2023 |2000|
+|2022 |1600|
+|2021 |1700|
+
+
+#### Problem 6: Work on EXAMPLE 15.1 ORDERING CALENDARS AT WALTON BOOKSTORE page 736 of the book
+- solve it Using excel file for NCAA T-shirt problem!
+- could you generalize this frame work?
+
+

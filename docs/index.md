@@ -10,6 +10,8 @@ This is the course hub for the 14-week training program at Solico Group on:
 ### Prepare for week 5, continue working of previous weeks class and problem
 - start working on [week 5 page](weeks/week05.md) 
 - Continue working on previous weeks problems
+- Please fill week 2,3 and 4 survey and self assesment [here](https://docs.google.com/forms/d/e/1FAIpQLSe9WE5eiurjQ0CjLRdQess9RfAAFhlcwdbocCzidLNJFjsIbg/viewform?usp=header)
+- help us improve the course through [General Feedback Form](https://docs.google.com/forms/d/160aHntXFdHmqR7j1SEEXIGWIaUXRGPtdJCWmsBiLcUE/edit)
 ### Prepare for week 4, Continue on week 3 class and prolems
 - start working on [week 4 page](weeks/week04.md) 
 - Continue working on [week 3 problems](weeks/week03.md) 
