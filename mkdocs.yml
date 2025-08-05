@@ -65,6 +65,7 @@ markdown_extensions:
   - toc:
      permalink: true 
   - pymdownx.arithmatex:
+     inline_syntax : true
      generic: true      
 
 # Navigation Structure
