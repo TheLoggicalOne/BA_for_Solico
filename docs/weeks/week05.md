@@ -16,7 +16,7 @@ consider 2000 possible scenario for demand!
 - Our economist, did an extensive research, asking many questions from owners about how valuable is  
 money in different situations, he finally claimed that:
 - Profit is not our real objective, our real objective is utility of profit
-- He also came up with the formula: $U(m) = \sqrt{m}$ , where $U$ is our utility and $m$ is money  
+- He also came up with the formula: \(U(m) = \sqrt{m}\) , where $U$ is our utility and $m$ is money  
 or profit
 
 - We accept his claim! Now find optimal order!
