@@ -22,7 +22,7 @@ Numbers feel objective, but they are just a partial representation of reality. I
 ### Fooled by False Linearity 
 Planning based on the average outcome is one of the most dangerous traps in business. If you need a bridge to be 10 feet high on average, building it exactly 10 feet high will be a disaster—half the time it will be too low! Decisions depend on the entire distribution of possibilities, not just the middle point.
 
-### Fooled by Flaw of Averages
+### Fooled by 
 
 ### Fooled by Correlation
 Just because two things move together doesn't mean one causes the other. We'll learn to distinguish between coincidence, correlation, and true causation—a skill essential for making interventions that actually work.

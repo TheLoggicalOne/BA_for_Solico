@@ -8,6 +8,7 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 ## Latest Updates and To Do
 ### Prepare for week 5, continue working of previous weeks class and problem
+- Here is the Link to MIT Risk and Decision Analysis Course: [IDS.333](https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/)
 - start working on [week 5 page](weeks/week05.md) 
 - Continue working on previous weeks problems
 - Please fill week 2,3 and 4 survey and self assesment [here](https://docs.google.com/forms/d/e/1FAIpQLSe9WE5eiurjQ0CjLRdQess9RfAAFhlcwdbocCzidLNJFjsIbg/viewform?usp=header)

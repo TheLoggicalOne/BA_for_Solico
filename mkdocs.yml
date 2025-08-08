@@ -79,7 +79,8 @@ nav:
     - 'Week 2: From Decision Making to Optimization': 'weeks/week02.md'
     - 'Week 3: From Optimization to Simulation': 'weeks/week03.md'
     - 'Week 14: Final Projects & Future of Solico': 'weeks/week14.md'
-  - 'Concepts & Principles': 'concepts/index.md'
+  - 'Concepts & Principles': 
+    - 'Overview': 'concepts/index.md'
     # ... add all 14 weeks here
   - 'Resources & Tools': 'resources.md'
   - 'Projects & Competition': 'projects.md'
