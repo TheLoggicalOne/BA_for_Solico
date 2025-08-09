@@ -11,7 +11,7 @@ The real world is not a clean set of inputs and outputs. It's a dynamic system g
 
 -   **The Future is a Distribution, Not a Number:** A point forecast ("we will sell 10,000 units") is fragile. A probabilistic view ("there's a 60% chance of selling between 8,000-12,000 units, but a 10% chance of selling less than 5,000") is robust. It allows us to manage risk and make better decisions.
 -   **The Power of Thinking in Ranges:** This is a proven strategy. In professional poker, the best players stopped trying to guess their opponent's exact hand. They started thinking about their opponent's *range* of possible hands and used mathematics to play optimally against that entire range. They embraced uncertainty and dominated. Modern AI and machine learning algorithms operate on the same principle.
-- see [Embrace the uncertainty, even when there is none]()
+- see [Embrace the uncertainty, even when there is none](concepts/embrace_the_uncertainty.md)
 ## A Field Guide to Common Analytical Traps
 
 We are all prone to being fooled by data. Here are some of the most common mistakes we will learn to identify and avoid.
