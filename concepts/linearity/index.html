@@ -12,7 +12,7 @@
         <meta name="author" content="Ali Hosseipuran">
       
       
-        <link rel="canonical" href="https://thloggicalone.github.io/BA_for_Solico/concepts/flaw_of_averages/">
+        <link rel="canonical" href="https://thloggicalone.github.io/BA_for_Solico/concepts/linearity/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Flaw of averages - Business Analytics: Data Analysis & Decision Making</title>
+        <title>Linearity - Business Analytics: Data Analysis & Decision Making</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#flaw-of-averages" class="md-skip">
+        <a href="#module-modeling-objectives-as-linear-combinations-of-inputs" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Flaw of averages
+              Linearity
             
           </span>
         </div>
@@ -758,8 +758,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -768,55 +766,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
+  <a href="#module-modeling-objectives-as-linear-combinations-of-inputs" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary
+      🧠 Module: Modeling Objectives as Linear Combinations of Inputs
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Summary">
+    <nav class="md-nav" aria-label="🧠 Module: Modeling Objectives as Linear Combinations of Inputs">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-is-it" class="md-nav__link">
+  <a href="#learning-goals" class="md-nav__link">
     <span class="md-ellipsis">
-      what is it?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#the-name" class="md-nav__link">
-    <span class="md-ellipsis">
-      The name
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#what-is-the-flaw" class="md-nav__link">
-    <span class="md-ellipsis">
-      What is the Flaw?
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mathematics-of-flaw" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mathematics of Flaw:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flaw-of-averages-in-words" class="md-nav__link">
-    <span class="md-ellipsis">
-      Flaw of averages in words
+      🎯 Learning Goals:
     </span>
   </a>
   
@@ -824,6 +786,174 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-linear-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧮 What is a Linear Model?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 Business Interpretation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-assumptions-and-implications-of-linearity" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Hidden Assumptions and Implications of Linearity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-1-advertising-budget-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Example 1: Advertising Budget Allocation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Example 1: Advertising Budget Allocation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Problem:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interpretations:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Questions:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-2-product-feature-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Example 2: Product Feature Value
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Example 2: Product Feature Value">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assumptions:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#but" class="md-nav__link">
+    <span class="md-ellipsis">
+      But…
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-3-linear-scoring-in-hr" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Example 3: Linear Scoring in HR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Example 3: Linear Scoring in HR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ask-students" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ask Students:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualization-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Visualization Idea
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📈 Visualization Idea">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-identify-linear-vs-nonlinear-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Exercise: Identify Linear vs Nonlinear Behavior
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Summary Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-python-notebook-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Optional: Python Notebook Idea
+    </span>
+  </a>
   
 </li>
       
@@ -843,36 +973,201 @@
 
 
 
-<h1 id="flaw-of-averages">Flaw of averages<a class="headerlink" href="#flaw-of-averages" title="Permanent link">&para;</a></h1>
-<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+  <h1>Linearity</h1>
+
+<p>Understanding how <strong>linear models express assumptions about constant tradeoffs and relative importance</strong> is <em>fundamental</em> to building intuition in business analytics.</p>
+<hr />
+<h2 id="module-modeling-objectives-as-linear-combinations-of-inputs">🧠 Module: Modeling Objectives as Linear Combinations of Inputs<a class="headerlink" href="#module-modeling-objectives-as-linear-combinations-of-inputs" title="Permanent link">&para;</a></h2>
+<h3 id="learning-goals">🎯 Learning Goals:<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h3>
 <ul>
-<li>as explained by de Neufville in MIT Decision Analysis ans Risk Management course</li>
+<li>Understand what it means to model an objective as a linear function of variables.</li>
+<li>Interpret coefficients in terms of <strong>marginal effects</strong> or <strong>weights</strong>.</li>
+<li>Explore <strong>hidden assumptions</strong> of linearity (e.g., constant tradeoffs, independence).</li>
+<li>Identify <strong>when linear models are reasonable</strong>, and when they fail.</li>
 </ul>
-<h3 id="what-is-it">what is it?<a class="headerlink" href="#what-is-it" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="what-is-a-linear-model">🧮 What is a Linear Model?<a class="headerlink" href="#what-is-a-linear-model" title="Permanent link">&para;</a></h2>
+<p>We model a target or objective (e.g. profit, cost, score, satisfaction) as:</p>
+<div class="arithmatex">\[ \text{Objective} = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b \]</div>
+<p>Where:</p>
 <ul>
-<li>a fundamental problem in the design and evaluation of projects</li>
-<li>The patern of designing, evaluating projects based on the average, "most likely" future forecast</li>
-<li>Derives from misunderstanding of probability and systems behavior</li>
+<li><span class="arithmatex">\(x_i\)</span>: input variables (e.g., features of a product, price, time spent)</li>
+<li><span class="arithmatex">\(w_i\)</span>: weights or coefficients (value or cost per unit of each variable)</li>
+<li><span class="arithmatex">\(b\)</span>: baseline (intercept)</li>
 </ul>
-<h3 id="the-name">The name<a class="headerlink" href="#the-name" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="business-interpretation">🧩 Business Interpretation<a class="headerlink" href="#business-interpretation" title="Permanent link">&para;</a></h2>
+<p>Each coefficient <span class="arithmatex">\(w_i\)</span> answers:</p>
+<blockquote>
+<p>“How much does the objective change if we increase <span class="arithmatex">\(x_i\)</span> by 1 unit, holding others constant?”</p>
+</blockquote>
+<p>This implies:</p>
 <ul>
-<li>A pun by Sam Savage(See the book "Flaw of Averages, 2009")</li>
-<li>A mistake -&gt; Flaw</li>
-<li>The concept of the "Law of averages that things balance out on averages</li>
+<li><strong>Constant marginal value</strong>: Each unit of <span class="arithmatex">\(x_i\)</span> contributes exactly <span class="arithmatex">\(w_i\)</span> more (or less) to the objective.</li>
+<li><strong>Additivity</strong>: The effect of each variable is independent and adds up linearly.</li>
+<li><strong>No interactions</strong> unless explicitly modeled.</li>
 </ul>
-<h3 id="what-is-the-flaw">What is the Flaw?<a class="headerlink" href="#what-is-the-flaw" title="Permanent link">&para;</a></h3>
-<p>The error consist of assuming analyses based on "average" or "most likely" conditions give correct answer</p>
-<h3 id="mathematics-of-flaw">Mathematics of Flaw:<a class="headerlink" href="#mathematics-of-flaw" title="Permanent link">&para;</a></h3>
+<hr />
+<h2 id="hidden-assumptions-and-implications-of-linearity">⚠️ Hidden Assumptions and Implications of Linearity<a class="headerlink" href="#hidden-assumptions-and-implications-of-linearity" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Assumption</th>
+<th>Implication</th>
+<th>Real-World Concern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Constant marginal value</td>
+<td>The tradeoff doesn’t change</td>
+<td>Often unrealistic (e.g. diminishing returns)</td>
+</tr>
+<tr>
+<td>Additivity</td>
+<td>No interaction between variables</td>
+<td>But often variables <strong>interact</strong> (e.g. price and marketing)</td>
+</tr>
+<tr>
+<td>Linearity</td>
+<td>Simple decision surfaces</td>
+<td>But real-world systems often non-linear</td>
+</tr>
+<tr>
+<td>Perfect measurement</td>
+<td>No error, full observability</td>
+<td>Rarely true in practice</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="example-1-advertising-budget-allocation">✅ Example 1: Advertising Budget Allocation<a class="headerlink" href="#example-1-advertising-budget-allocation" title="Permanent link">&para;</a></h2>
+<h3 id="problem">Problem:<a class="headerlink" href="#problem" title="Permanent link">&para;</a></h3>
+<p>You want to model the <strong>sales</strong> as a function of spending in two channels: TV and Social Media.</p>
+<p>Assume:</p>
+<div class="arithmatex">\[
+\text{Sales} = 20 \cdot \text{TV} + 10 \cdot \text{Social} + 500
+\]</div>
+<h3 id="interpretations">Interpretations:<a class="headerlink" href="#interpretations" title="Permanent link">&para;</a></h3>
 <ul>
-<li><span class="arithmatex">\(E[f(x)] \neq f(E(X))\)</span></li>
-<li>See also Jensen Inequality</li>
-<li>where <span class="arithmatex">\(E(x)\)</span> is expected value of <span class="arithmatex">\(x\)</span></li>
+<li>Each $1 spent on TV increases sales by $20.</li>
+<li>Each $1 spent on Social increases sales by $10.</li>
+<li>The model assumes <strong>TV and Social have independent, constant effects.</strong></li>
 </ul>
-<h3 id="flaw-of-averages-in-words">Flaw of averages in words<a class="headerlink" href="#flaw-of-averages-in-words" title="Permanent link">&para;</a></h3>
+<h3 id="questions">Questions:<a class="headerlink" href="#questions" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Average of all possible outcomes associated with uncertain parameters, generally does not equall<br />
-the value obtained from using the average value of the parameters</li>
+<li>What if spending more on Social changes how effective TV is?</li>
+<li>What if the effect of TV tapers off after some amount?</li>
 </ul>
+<hr />
+<h2 id="example-2-product-feature-value">✅ Example 2: Product Feature Value<a class="headerlink" href="#example-2-product-feature-value" title="Permanent link">&para;</a></h2>
+<p>A company makes custom laptops and assigns utility scores to features:</p>
+<div class="arithmatex">\[
+\text{Utility Score} = 50 \cdot \text{RAM(GB)} + 300 \cdot \text{SSD(GB)} + 100 \cdot \text{Battery(Hours)}
+\]</div>
+<h3 id="assumptions">Assumptions:<a class="headerlink" href="#assumptions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The value of 1GB RAM is always $50 — no matter how much RAM you already have.</li>
+<li>1 extra hour of battery is always worth $100 — even going from 1 → 2 hours, or 9 → 10.</li>
+</ul>
+<h3 id="but">But…<a class="headerlink" href="#but" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Users may <strong>value battery life more when it’s low</strong>, and less when it's already high.</li>
+<li>Customers may only need “enough” SSD and value flattens after that.</li>
+</ul>
+<hr />
+<h2 id="example-3-linear-scoring-in-hr">✅ Example 3: Linear Scoring in HR<a class="headerlink" href="#example-3-linear-scoring-in-hr" title="Permanent link">&para;</a></h2>
+<p>A hiring team uses:</p>
+<div class="arithmatex">\[
+\text{Score} = 2 \cdot \text{Experience (Years)} + 3 \cdot \text{Education Level} + 1 \cdot \text{Skill Test Score}
+\]</div>
+<p>Assumptions:</p>
+<ul>
+<li>1 year of experience is worth +2 points, always.</li>
+<li>1 more point in test score is worth +1 point in hiring score, regardless of baseline.</li>
+</ul>
+<h3 id="ask-students">Ask Students:<a class="headerlink" href="#ask-students" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Are these assumptions fair?</li>
+<li>Should the value of 5 years vs 6 years of experience be same as 1 vs 2?</li>
+</ul>
+<hr />
+<h2 id="visualization-idea">📈 Visualization Idea<a class="headerlink" href="#visualization-idea" title="Permanent link">&para;</a></h2>
+<p>Use graphs to <strong>visualize the implication</strong> of linearity:</p>
+<ul>
+<li><strong>Linear line</strong>: constant slope → constant rate of change</li>
+<li><strong>Nonlinear</strong>: slope changes → diminishing/increasing returns</li>
+</ul>
+<hr />
+<h3 id="exercise-identify-linear-vs-nonlinear-behavior">📊 Exercise: Identify Linear vs Nonlinear Behavior<a class="headerlink" href="#exercise-identify-linear-vs-nonlinear-behavior" title="Permanent link">&para;</a></h3>
+<p>Provide students with different objective formulas and ask:</p>
+<ul>
+<li>Is the relation linear?</li>
+<li>What does the coefficient mean?</li>
+<li>What’s the assumption behind this coefficient?</li>
+</ul>
+<p>Example:</p>
+<ol>
+<li><span class="arithmatex">\(\text{Profit} = 100 \cdot \text{Units Sold} - 50 \cdot \text{Advertising Cost}\)</span></li>
+<li><span class="arithmatex">\(\text{Satisfaction} = 50 \cdot \log(\text{Speed}) + 100 \cdot \text{Design Quality}\)</span></li>
+</ol>
+<p>Ask:</p>
+<ul>
+<li>Which one is linear?</li>
+<li>Where might it break?</li>
+</ul>
+<hr />
+<h2 id="summary-takeaways">🧠 Summary Takeaways<a class="headerlink" href="#summary-takeaways" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Insight</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coefficients reflect value/tradeoff</td>
+<td>Interpret weights as marginal effects</td>
+</tr>
+<tr>
+<td>Linearity simplifies modeling</td>
+<td>But may hide real-world complexity</td>
+</tr>
+<tr>
+<td>Constant value = constant tradeoff</td>
+<td>Useful approximation, but verify</td>
+</tr>
+<tr>
+<td>Visualize to test reasonableness</td>
+<td>Plot input vs output to see relationships</td>
+</tr>
+<tr>
+<td>Nonlinearity is everywhere</td>
+<td>Linear models are starting points, not final truths</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="optional-python-notebook-idea">📦 Optional: Python Notebook Idea<a class="headerlink" href="#optional-python-notebook-idea" title="Permanent link">&para;</a></h2>
+<p>Use <code>matplotlib</code> and <code>numpy</code> to simulate and visualize:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">linear</span> <span class="o">=</span> <span class="mi">50</span> <span class="o">*</span> <span class="n">x</span>  <span class="c1"># e.g., value of RAM in GB</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">nonlinear</span> <span class="o">=</span> <span class="mi">300</span> <span class="o">*</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="mf">0.4</span> <span class="o">*</span> <span class="n">x</span><span class="p">))</span>  <span class="c1"># diminishing returns</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">linear</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Linear (constant value)&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">nonlinear</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Nonlinear (diminishing returns)&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;Input (e.g. RAM GB)&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Utility / Value&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Linear vs Nonlinear Relationship&quot;</span><span class="p">)</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div>
+<hr />
 
 
 
