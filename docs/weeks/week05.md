@@ -84,7 +84,7 @@ it could be any of these numbers, all with same chance
 - How real are our assumptions? How can we make them better?
 #### Problem 6: Solve combination of version 5 and 6 of NCAA T-shirt problem!
 ##### version 56: 
-- we have 3000 potential customer, Each of them has a 50% chance of buying a T-shirt
+- we have 3000 potential customer, Each of them has a $p$ chance of buying a T-shirt
 - also,we know is history of our previus three years demand at the same event:
 
 |Year|Demand|
