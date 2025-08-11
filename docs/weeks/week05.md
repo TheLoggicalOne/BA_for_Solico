@@ -1,7 +1,7 @@
 # Prepare for Week 5
 ## Problems
 #### **Problem 1:** Solve version 4 of NCAA T-shirt problem
-- Here is [version 4](weeks/week03/#version-4-unifrom-random)
+- Here is [version 4](week03.md/#version-4-unifrom-random)
 - You could do exactly what we did for version 3, only instead of 3 possible scenario for demand,  
 consider 2000 possible scenario for demand!
 - Remember,  if you could do it for more than one case, you could do it for 2000 or 2 million or cases!
