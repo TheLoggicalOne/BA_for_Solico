@@ -7,9 +7,19 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Decision Modeling
 
 ## Latest Updates and To Do
-### Prepare for Week 6,continue working of previous weeks class and problem 
+### Prepare for Week 6, continue working of previous weeks class and problem 
 - start working on [week 6 page](weeks/week06.md)
-
+- Study Part 2 of the book:  
+    - Chapter 5: Probability and probability distribution
+    - Chapter 6: Decision Making Under Uncertainty
+- Study Part 5 of the Book: 
+    - chapter 15.1 : Introduction to Simulation Modeling
+    - chapter 15.2 : Probability Distributions for Input Variables
+    - chapter 15.3 : Simulation and the Flaw of Averages  
+    - chapter 15.4 : Simulation with Built-in Excel Tools
+- Here is the Link to MIT Risk and Decision Analysis Course: [IDS.333](https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/)
+- Please fill week 2,3 and 4 survey and self assesment [here](https://docs.google.com/forms/d/e/1FAIpQLSe9WE5eiurjQ0CjLRdQess9RfAAFhlcwdbocCzidLNJFjsIbg/viewform?usp=header)
+- help us improve the course through [General Feedback Form](https://docs.google.com/forms/d/160aHntXFdHmqR7j1SEEXIGWIaUXRGPtdJCWmsBiLcUE/edit)
 ### Prepare for week 5, continue working of previous weeks class and problem
 - Here is the Link to MIT Risk and Decision Analysis Course: [IDS.333](https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/)
 - start working on [week 5 page](weeks/week05.md) 

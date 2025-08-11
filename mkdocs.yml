@@ -80,7 +80,7 @@ nav:
     - 'Week 3: From Optimization to Simulation': 'weeks/week03.md'
     - 'Week 4: From Simulation to Optimization': 'weeks/week04.md'
     - 'Week 5: From Optimization to Simulation': 'weeks/week05.md'
-    - 'Week 6: From Simulation to Optimization': 'weeks/week06.md'
+    - 'Week 6: Probaility and Simulation': 'weeks/week06.md'
     - 'Week 14: Final Projects & Future of Solico': 'weeks/week14.md'
   - 'Concepts & Principles': 
     - 'Overview': 'concepts/index.md'
