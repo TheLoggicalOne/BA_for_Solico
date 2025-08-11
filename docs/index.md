@@ -7,6 +7,9 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Decision Modeling
 
 ## Latest Updates and To Do
+### Prepare for Week 6,continue working of previous weeks class and problem 
+- start working on [week 6 page](weeks/week06.md)
+
 ### Prepare for week 5, continue working of previous weeks class and problem
 - Here is the Link to MIT Risk and Decision Analysis Course: [IDS.333](https://ocw.mit.edu/courses/ids-333-risk-and-decision-analysis-fall-2021/)
 - start working on [week 5 page](weeks/week05.md) 

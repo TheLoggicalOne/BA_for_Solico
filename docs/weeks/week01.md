@@ -12,8 +12,11 @@ Welcome to our first session! Today, we lay the foundation for the entire course
 ## The Journey: From Decision to Optimization
 
 At its heart, every business decision involves three components:
+
 1.  A set of **choices** or actions you can take.
+
 2.  A set of possible **outcomes** for each choice.
+
 3.  A **preference** or valuation for each outcome (e.g., profit, cost, market share).
 
 To analyze a decision scientifically, we must first represent it with a **model**—a simplified, logical structure of the problem. When we define a clear, measurable objective (like maximizing profit or minimizing cost), the problem of making the "best" decision becomes an **optimization problem**. This is the foundational link between decision-making and a vast toolkit of mathematical methods.
