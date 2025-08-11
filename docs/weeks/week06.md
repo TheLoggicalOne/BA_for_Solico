@@ -4,9 +4,9 @@
 - Find examples of Flaw of Averages,in personal and business decision making
 
 ### Prolem 2: Estimate chance of success Bernouli random variable from data
-- $X$ is a Bernouli random variable with probability of success equal to $p$, p is unknown to us.  
-in other words, $P(X=1) = p$
-- We know the result of one trial, which was success ( $X=1$)
+- $ X $ is a Bernouli random variable with probability of success equal to $ p $, p is unknown to us.  
+in other words, $ P(X=1) = p $
+- We know the result of one trial, which was success ( $ X=1 $)
 - What can we say about $p$? How can we predict result of future trials of $X$?
 - What if we know the result of more than one trials?
 - Solve problem 6 of [week 5](week05.md)
@@ -27,12 +27,12 @@ is numbered 120
 - How much should we spend on them?
 
 ### Problem 5: you are playing a simple dice game:
-- You throw a dice, if the result is $x$, you will win $x$ dollar. How much are you willing to pay  
+- You throw a dice, if the result is $ x $, you will win $ x $ dollar. How much are you willing to pay  
 for each round of this game? What is the maximum value? You could play as many rounds as you want
 
 - What if the dice is not fair, let say has following chances
 
 ### Problem 6: Consider problem 5 of [week 5](week05.md), how valuable is information or data here?
-- How much are you willing to pay, to know the value of $m$
+- How much are you willing to pay, to know the value of $ m $
 - How much are you willing to pay for each single sample of data?
 
