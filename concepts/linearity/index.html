@@ -971,9 +971,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#ask-students" class="md-nav__link">
+  <a href="#ask-yourself" class="md-nav__link">
     <span class="md-ellipsis">
-      Ask Students:
+      Ask Yourself:
     </span>
   </a>
   
@@ -1057,22 +1057,22 @@
 <hr />
 <h2 id="what-is-a-linear-model">🧮 What is a Linear Model?<a class="headerlink" href="#what-is-a-linear-model" title="Permanent link">&para;</a></h2>
 <p>We model a target or objective (e.g. profit, cost, score, satisfaction) as:</p>
-<div class="arithmatex">\[ \text{Objective} = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b \]</div>
+<p>$ \text{Objective} = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b $</p>
 <p>Where:</p>
 <ul>
-<li><span class="arithmatex">\(x_i\)</span>: input variables (e.g., features of a product, price, time spent)</li>
-<li><span class="arithmatex">\(w_i\)</span>: weights or coefficients (value or cost per unit of each variable)</li>
-<li><span class="arithmatex">\(b\)</span>: baseline (intercept)</li>
+<li>$ x_i $ : input variables (e.g., features of a product, price, time spent)</li>
+<li>$ w_i $ : weights or coefficients (value or cost per unit of each variable)</li>
+<li>$ b $ : baseline (intercept)</li>
 </ul>
 <hr />
 <h2 id="business-interpretation">🧩 Business Interpretation<a class="headerlink" href="#business-interpretation" title="Permanent link">&para;</a></h2>
 <p>Each coefficient <span class="arithmatex">\(w_i\)</span> answers:</p>
 <blockquote>
-<p>“How much does the objective change if we increase <span class="arithmatex">\(x_i\)</span> by 1 unit, holding others constant?”</p>
+<p>“How much does the objective change if we increase $ x_i $ by 1 unit, holding others constant?”</p>
 </blockquote>
 <p>This implies:</p>
 <ul>
-<li><strong>Constant marginal value</strong>: Each unit of <span class="arithmatex">\(x_i\)</span> contributes exactly <span class="arithmatex">\(w_i\)</span> more (or less) to the objective.</li>
+<li><strong>Constant marginal value</strong>: Each unit of $ x_i $ contributes exactly $ w_i $ more (or less) to the objective.</li>
 <li><strong>Additivity</strong>: The effect of each variable is independent and adds up linearly.</li>
 <li><strong>No interactions</strong> unless explicitly modeled.</li>
 </ul>
@@ -1114,13 +1114,11 @@
 <h3 id="problem">Problem:<a class="headerlink" href="#problem" title="Permanent link">&para;</a></h3>
 <p>You want to model the <strong>sales</strong> as a function of spending in two channels: TV and Social Media.</p>
 <p>Assume:</p>
-<div class="arithmatex">\[
-\text{Sales} = 20 \cdot \text{TV} + 10 \cdot \text{Social} + 500
-\]</div>
+<p>$ \text{Sales} = 20 \cdot \text{TV} + 10 \cdot \text{Social} + 500 $</p>
 <h3 id="interpretations">Interpretations:<a class="headerlink" href="#interpretations" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Each $1 spent on TV increases sales by $20.</li>
-<li>Each $1 spent on Social increases sales by $10.</li>
+<li>Each &#36;1 spent on TV increases sales by  &#36;20.</li>
+<li>Each  &#36;1 spent on Social increases sales by &#36;10.</li>
 <li>The model assumes <strong>TV and Social have independent, constant effects.</strong></li>
 </ul>
 <h3 id="questions">Questions:<a class="headerlink" href="#questions" title="Permanent link">&para;</a></h3>
@@ -1131,9 +1129,7 @@
 <hr />
 <h2 id="example-2-product-feature-value">✅ Example 2: Product Feature Value<a class="headerlink" href="#example-2-product-feature-value" title="Permanent link">&para;</a></h2>
 <p>A company makes custom laptops and assigns utility scores to features:</p>
-<div class="arithmatex">\[
-\text{Utility Score} = 50 \cdot \text{RAM(GB)} + 300 \cdot \text{SSD(GB)} + 100 \cdot \text{Battery(Hours)}
-\]</div>
+<p>$ \text{Utility Score} = 50 \cdot \text{RAM(GB)} + 300 \cdot \text{SSD(GB)} + 100 \cdot \text{Battery(Hours)} $</p>
 <h3 id="assumptions">Assumptions:<a class="headerlink" href="#assumptions" title="Permanent link">&para;</a></h3>
 <ul>
 <li>The value of 1GB RAM is always $50 — no matter how much RAM you already have.</li>
@@ -1147,15 +1143,15 @@
 <hr />
 <h2 id="example-3-linear-scoring-in-hr">✅ Example 3: Linear Scoring in HR<a class="headerlink" href="#example-3-linear-scoring-in-hr" title="Permanent link">&para;</a></h2>
 <p>A hiring team uses:</p>
-<div class="arithmatex">\[
+<p>$
 \text{Score} = 2 \cdot \text{Experience (Years)} + 3 \cdot \text{Education Level} + 1 \cdot \text{Skill Test Score}
-\]</div>
+$</p>
 <p>Assumptions:</p>
 <ul>
 <li>1 year of experience is worth +2 points, always.</li>
 <li>1 more point in test score is worth +1 point in hiring score, regardless of baseline.</li>
 </ul>
-<h3 id="ask-students">Ask Students:<a class="headerlink" href="#ask-students" title="Permanent link">&para;</a></h3>
+<h3 id="ask-yourself">Ask Yourself:<a class="headerlink" href="#ask-yourself" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Are these assumptions fair?</li>
 <li>Should the value of 5 years vs 6 years of experience be same as 1 vs 2?</li>
@@ -1177,8 +1173,8 @@
 </ul>
 <p>Example:</p>
 <ol>
-<li><span class="arithmatex">\(\text{Profit} = 100 \cdot \text{Units Sold} - 50 \cdot \text{Advertising Cost}\)</span></li>
-<li><span class="arithmatex">\(\text{Satisfaction} = 50 \cdot \log(\text{Speed}) + 100 \cdot \text{Design Quality}\)</span></li>
+<li>$ \text{Profit} = 100 \cdot \text{Units Sold} - 50 \cdot \text{Advertising Cost} $</li>
+<li>$ \text{Satisfaction} = 50 \cdot \log(\text{Speed}) + 100 \cdot \text{Design Quality} $</li>
 </ol>
 <p>Ask:</p>
 <ul>
