@@ -1,8 +1,7 @@
 # Prepare for Week 6
 ## Problems
-### Problem 1: What do you think about Flaw of averages? What is wrong with it?
+### Problem 1: What do you think about [Flaw of Averages](../concepts/flaw_of_averages.md)? What is wrong with it?
 - Find examples of Flaw of Averages,in personal and business decision making
-
 ### Prolem 2: Estimate chance of success Bernouli random variable from data
 - $ X $ is a Bernouli random variable with probability of success equal to $ p $, p is unknown to us.  
 in other words, $ P(X=1) = p $
