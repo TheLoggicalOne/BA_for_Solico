@@ -18,13 +18,13 @@ Understanding how **linear models express assumptions about constant tradeoffs a
 
 We model a target or objective (e.g. profit, cost, score, satisfaction) as:
 
-$$ \text{Objective} = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b $$
+$ \text{Objective} = w_1 x_1 + w_2 x_2 + \dots + w_n x_n + b $
 
 Where:
 
-* $x_i$: input variables (e.g., features of a product, price, time spent)
-* $w_i$: weights or coefficients (value or cost per unit of each variable)
-* $b$: baseline (intercept)
+* $ x_i $ : input variables (e.g., features of a product, price, time spent)
+* $ w_i $ : weights or coefficients (value or cost per unit of each variable)
+* $ b $ : baseline (intercept)
 
 ---
 
@@ -32,11 +32,11 @@ Where:
 
 Each coefficient $w_i$ answers:
 
-> “How much does the objective change if we increase $x_i$ by 1 unit, holding others constant?”
+> “How much does the objective change if we increase $ x_i $ by 1 unit, holding others constant?”
 
 This implies:
 
-* **Constant marginal value**: Each unit of $x_i$ contributes exactly $w_i$ more (or less) to the objective.
+* **Constant marginal value**: Each unit of $ x_i $ contributes exactly $ w_i $ more (or less) to the objective.
 * **Additivity**: The effect of each variable is independent and adds up linearly.
 * **No interactions** unless explicitly modeled.
 
@@ -61,14 +61,12 @@ You want to model the **sales** as a function of spending in two channels: TV an
 
 Assume:
 
-$$
-\text{Sales} = 20 \cdot \text{TV} + 10 \cdot \text{Social} + 500
-$$
+$ \text{Sales} = 20 \cdot \text{TV} + 10 \cdot \text{Social} + 500 $
 
 ### Interpretations:
 
-* Each \$1 spent on TV increases sales by \$20.
-* Each \$1 spent on Social increases sales by \$10.
+* Each &#36;1 spent on TV increases sales by  &#36;20.
+* Each  &#36;1 spent on Social increases sales by &#36;10.
 * The model assumes **TV and Social have independent, constant effects.**
 
 ### Questions:
@@ -82,9 +80,7 @@ $$
 
 A company makes custom laptops and assigns utility scores to features:
 
-$$
-\text{Utility Score} = 50 \cdot \text{RAM(GB)} + 300 \cdot \text{SSD(GB)} + 100 \cdot \text{Battery(Hours)}
-$$
+$ \text{Utility Score} = 50 \cdot \text{RAM(GB)} + 300 \cdot \text{SSD(GB)} + 100 \cdot \text{Battery(Hours)} $
 
 ### Assumptions:
 
@@ -102,16 +98,16 @@ $$
 
 A hiring team uses:
 
-$$
+$
 \text{Score} = 2 \cdot \text{Experience (Years)} + 3 \cdot \text{Education Level} + 1 \cdot \text{Skill Test Score}
-$$
+$
 
 Assumptions:
 
 * 1 year of experience is worth +2 points, always.
 * 1 more point in test score is worth +1 point in hiring score, regardless of baseline.
 
-### Ask Students:
+### Ask Yourself:
 
 * Are these assumptions fair?
 * Should the value of 5 years vs 6 years of experience be same as 1 vs 2?
@@ -137,8 +133,8 @@ Provide students with different objective formulas and ask:
 
 Example:
 
-1. $\text{Profit} = 100 \cdot \text{Units Sold} - 50 \cdot \text{Advertising Cost}$
-2. $\text{Satisfaction} = 50 \cdot \log(\text{Speed}) + 100 \cdot \text{Design Quality}$
+1. $ \text{Profit} = 100 \cdot \text{Units Sold} - 50 \cdot \text{Advertising Cost} $
+2. $ \text{Satisfaction} = 50 \cdot \log(\text{Speed}) + 100 \cdot \text{Design Quality} $
 
 Ask:
 
