@@ -7,6 +7,16 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Decision Modeling
 
 ## Latest Updates and To Do
+### Week 7
+- Here is links to jupyter notebooks files, in google drive:
+    - Summary file: Focus on Big picture and components: From certainty to uncertainty
+        - [download file](https://drive.google.com/file/d/19GaobOdIgcWAnv4GVa2BCBj2dBt4rzoG/view?usp=sharing)
+        - [open in google colab](https://colab.research.google.com/drive/19GaobOdIgcWAnv4GVa2BCBj2dBt4rzoG)
+    - Detailed file with exapmles of how to work with distributions and results
+        - [download file](https://drive.google.com/file/d/1o1xD9vfrrbqUsnXyGoXrfHXtIVOrg7La/view?usp=sharing)
+        - [open in google colab](https://colab.research.google.com/drive/1o1xD9vfrrbqUsnXyGoXrfHXtIVOrg7La) 
+- You can open above files directll in google colab, or download them and open them on your system  using jupyter notebook or vs code
+
 ### Prepare for Week 6, continue working on previous weeks class and problem 
 - start working on [week 6 page](weeks/week06.md)
 - Study Part 2 of the book:  
