@@ -1286,7 +1286,7 @@ and bayesian perspective</li>
 <p>The p-value is a cornerstone of statistical testing, used everywhere from medicine to marketing.</p>
 <ul>
 <li>
-<p><strong>Null Hypothesis (<span class="arithmatex">\(H_0\)</span>)</strong>: The "skeptic's" hypothesis. It assumes <strong>no effect</strong>.</p>
+<p><strong>Null Hypothesis ($ H_0 $)</strong>: The "skeptic's" hypothesis. It assumes <strong>no effect</strong>.</p>
 <ul>
 <li>"The new drug has no effect."</li>
 <li>"The ad campaign did not increase sales."</li>
@@ -1294,13 +1294,13 @@ and bayesian perspective</li>
 </ul>
 </li>
 <li>
-<p><strong>P-value Definition</strong>: The probability of seeing our observed data (or something even more extreme), <strong>assuming the null hypothesis (<span class="arithmatex">\(H_0\)</span>) is true.</strong></p>
+<p><strong>P-value Definition</strong>: The probability of seeing our observed data (or something even more extreme), <strong>assuming the null hypothesis ($ H_0 $) is true.</strong></p>
 <ul>
-<li><span class="arithmatex">\(p = P(\text{Observed Data or more extreme} | H_0 \text{ is true})\)</span></li>
+<li>$ p = P(\text{Observed Data or more extreme} | H_0 \text{ is true}) $</li>
 </ul>
 </li>
 <li>
-<p><strong>The Magic Threshold</strong>: Conventionally, if <span class="arithmatex">\(p &lt; 0.05\)</span>, we call the result "statistically significant." This suggests the outcome was too unlikely to have occurred by random chance alone, so we <strong>reject the null hypothesis</strong>.</p>
+<p><strong>The Magic Threshold</strong>: Conventionally, if $ p &lt; 0.05 $, we call the result "statistically significant." This suggests the outcome was too unlikely to have occurred by random chance alone, so we <strong>reject the null hypothesis</strong>.</p>
 </li>
 </ul>
 <hr />
@@ -1309,19 +1309,19 @@ and bayesian perspective</li>
 <p><strong>Scenario</strong>: You're running an A/B test on your website.
 * <strong>Version A</strong>: The original button.
 * <strong>Version B</strong>: A new, bright green button.
-* <strong>Null Hypothesis (<span class="arithmatex">\(H_0\)</span>)</strong>: The button color has no effect on clicks. (<span class="arithmatex">\(Conversion_A = Conversion_B\)</span>)</p>
+* **Null Hypothesis ($ H_0 <span class="arithmatex">\()**: The button color has no effect on clicks. (\)</span>Conversion_A = Conversion_B$)</p>
 <p><strong>Results</strong>: Version B gets more clicks. You run a statistical test and get a <strong>p-value of 0.03</strong>.</p>
 <p><strong>Interpretation</strong>:
-* Since <span class="arithmatex">\(0.03 &lt; 0.05\)</span>, the result is statistically significant.
+* Since $ 0.03 &lt; 0.05 $, the result is statistically significant.
 * There is only a 3% chance you would see this difference in clicks (or a larger one) if the green button truly had no effect.
 * <strong>Decision</strong>: You can be reasonably confident the effect is real. You reject <span class="arithmatex">\(H_0\)</span> and implement the green button.</p>
 <hr />
 <h3 id="the-1-most-dangerous-mistake-with-p-values">The #1 Most Dangerous Mistake with P-values!**<a class="headerlink" href="#the-1-most-dangerous-mistake-with-p-values" title="Permanent link">&para;</a></h3>
 <p>This is the single most important concept to understand. It's all about <strong>conditional probability</strong>.</p>
 <p>A p-value tells you:
-* <span class="arithmatex">\(P(\text{Data} | H_0 \text{ is True})\)</span> -&gt; <em>The probability of seeing the evidence, assuming the person is innocent.</em></p>
+* $ P(\text{Data} | H_0 \text{ is True}) $ -&gt; <em>The probability of seeing the evidence, assuming the person is innocent.</em></p>
 <p>What you <em>want</em> to know is:
-* <span class="arithmatex">\(P(H_0 \text{ is True} | \text{Data})\)</span> -&gt; <em>The probability the person is innocent, given the evidence.</em></p>
+* $ P(H_0 \text{ is True} | \text{Data}) $ -&gt; <em>The probability the person is innocent, given the evidence.</em></p>
 <p><strong>These are NOT the same thing!</strong> Confusing them is called the <strong>Prosecutor's Fallacy</strong>.</p>
 <hr />
 <h3 id="the-prosecutors-fallacy-the-base-rate-fallacy">The Prosecutor's Fallacy &amp; The Base Rate Fallacy**<a class="headerlink" href="#the-prosecutors-fallacy-the-base-rate-fallacy" title="Permanent link">&para;</a></h3>
