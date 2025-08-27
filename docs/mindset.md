@@ -5,6 +5,19 @@ Success in business analytics isn't just about mastering tools; it's about culti
 
  This section is a guide to the core principles and common cognitive traps we will learn to overcome. We will see examples of these, expand on them and keep finding them in our journey
 
+## Not only mastering tools is easier than ever, it has become(although debatable) unnecessary
+- With the help of AI, and great advancment of softwares and tools, You don't have to memorize how to use different tools, you could just start using them
+- But you should know what exactly those tool are doing, what is the meaning of their result, and how well these connect to problem you are solving or system that your are modeling
+- For example, running a regression, is just couple of lines in sklearn, or couple of clicks in excel add-ins, or other tools...    
+    - But to use regression for your real world problem, you shoould know what is regression, what are its assumption, and judge how well those assumptions hold in your problem
+- Fitting a curve is one line in scipy, and feels like a superpower that enable us to predict everything, but its not
+    - It is true that mathematical formula have super power in fitting, they could fit everything! But this is the blessing and the curse, the problem is that mathematical formula fit the noise and systematic trends altoghther, since they all are the same thing to them
+    - Super power of 
+
+- Fortunately, all these methods, follow a simmilar framework:
+- computer programs and software and mathematics can only solve well-defined, clear problems, which are in their language: They understand logic, algorithms and mathematics
+- To represent our real world problem, in their language, we need to do modeling
+ 
 ## Embrace Uncertainty
 
 The real world is not a clean set of inputs and outputs. It's a dynamic system governed by randomness and incomplete information. Instead of trying to find the *one thing* that will happen, our goal is to understand the *chances of different possibilities*.

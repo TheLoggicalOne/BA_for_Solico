@@ -7,6 +7,15 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Decision Modeling
 
 ## Latest Updates and To Do
+### Prepare for Week 8, continue working on previous weeks class and problem
+- Continue working on [week 6 page](weeks/week06.md) problems
+- Read chapter 5 and 6 of the book, specially:
+    - review summary of key terms for chapter 5, starting page 232
+    - review summary of key terms for chapter 6, starting page 280
+
+- start working on [week 8](weeks/week08.md)
+
+
 ### Week 7
 - Here is links to jupyter notebooks files, in google drive:
     - Summary file: Focus on Big picture and components: From certainty to uncertainty
