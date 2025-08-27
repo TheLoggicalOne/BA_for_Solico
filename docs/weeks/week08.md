@@ -184,15 +184,15 @@ This logic has critical pitfalls if we're not careful. It's easy to misuse!
 
 The p-value is a cornerstone of statistical testing, used everywhere from medicine to marketing.
 
-* **Null Hypothesis ($H_0$)**: The "skeptic's" hypothesis. It assumes **no effect**.
+* **Null Hypothesis ($ H_0 $)**: The "skeptic's" hypothesis. It assumes **no effect**.
     * "The new drug has no effect."
     * "The ad campaign did not increase sales."
     * "There is no difference between website A and website B."
 
-* **P-value Definition**: The probability of seeing our observed data (or something even more extreme), **assuming the null hypothesis ($H_0$) is true.**
-    * $p = P(\text{Observed Data or more extreme} | H_0 \text{ is true})$
+* **P-value Definition**: The probability of seeing our observed data (or something even more extreme), **assuming the null hypothesis ($ H_0 $) is true.**
+    * $ p = P(\text{Observed Data or more extreme} | H_0 \text{ is true}) $
 
-* **The Magic Threshold**: Conventionally, if $p < 0.05$, we call the result "statistically significant." This suggests the outcome was too unlikely to have occurred by random chance alone, so we **reject the null hypothesis**.
+* **The Magic Threshold**: Conventionally, if $ p < 0.05 $, we call the result "statistically significant." This suggests the outcome was too unlikely to have occurred by random chance alone, so we **reject the null hypothesis**.
 
 ---
 
@@ -203,12 +203,12 @@ P-values are crucial for making data-driven decisions.
 **Scenario**: You're running an A/B test on your website.
 * **Version A**: The original button.
 * **Version B**: A new, bright green button.
-* **Null Hypothesis ($H_0$)**: The button color has no effect on clicks. ($Conversion_A = Conversion_B$)
+* **Null Hypothesis ($ H_0 $)**: The button color has no effect on clicks. ($Conversion_A = Conversion_B$)
 
 **Results**: Version B gets more clicks. You run a statistical test and get a **p-value of 0.03**.
 
 **Interpretation**:
-* Since $0.03 < 0.05$, the result is statistically significant.
+* Since $ 0.03 < 0.05 $, the result is statistically significant.
 * There is only a 3% chance you would see this difference in clicks (or a larger one) if the green button truly had no effect.
 * **Decision**: You can be reasonably confident the effect is real. You reject $H_0$ and implement the green button.
 
@@ -221,10 +221,10 @@ P-values are crucial for making data-driven decisions.
 This is the single most important concept to understand. It's all about **conditional probability**.
 
 A p-value tells you:
-* $P(\text{Data} | H_0 \text{ is True})$ -> *The probability of seeing the evidence, assuming the person is innocent.*
+* $ P(\text{Data} | H_0 \text{ is True}) $ -> *The probability of seeing the evidence, assuming the person is innocent.*
 
 What you *want* to know is:
-* $P(H_0 \text{ is True} | \text{Data})$ -> *The probability the person is innocent, given the evidence.*
+* $ P(H_0 \text{ is True} | \text{Data}) $ -> *The probability the person is innocent, given the evidence.*
 
 **These are NOT the same thing!** Confusing them is called the **Prosecutor's Fallacy**.
 
