@@ -2,7 +2,12 @@
 ## Beyond the Numbers: Probabilistic Reasoning for Business Analytics
 - Understanding P-values, Conditional Probability, and Why Common Sense is Your Best Tool
 
-## Our Approach so far
+## Our Approach so far: Forward problem
+- So far we have discussed how to make deicison, assuming we know everything(at least up to distribution)
+- Assuming we know mathematical model of system, and our preferences and distribution of variables,  
+we have(hopefully) learned how to make decision
+- But in real world, we dont know any of these
+- Let first review the forward problem, and all the things we need for it
 #### To solve business problem, and make optimal choices, we should:
 - consider all possible choices: 
     - set of choices, represented by variables
@@ -22,7 +27,7 @@
     - In presence of uncertainty, we don't see result of our choices, each choice will leads to distribution  of possible outcomes, so we should have decision rule, based on distribution of  
     outcome, not the outcome itslef
 
-#### In other words:
+#### In other words we need:
 
 
 - mathematical model of the system: variables and their relations: represent relation between variables(inputs, outputs)
@@ -49,13 +54,13 @@ actually, we could consider our objective as another variable, but since it depe
 - From prefernces over deterministic objective to preferences over distribution of objective
 - Most common approach is considering expected value of objective
     - wokrs great if, your objective is your real objective! As represented bu numbers:
-        - $15100 - 15000 = 8100 - 8000 = 1100 - 1000$
-        - $2 * 10000 = 20000$
+        - $ 15100 - 15000 = 8100 - 8000 = 1100 - 1000 $
+        - $ 2 * 10000 = 20000 $
         - in a way that  
     - Suffer from flaw of averages if, your real objective is non-linear function of this objective
     - It is not enough to have a objective function that is rank-consistent with your preferences
 
-## To Reality:
+## To Reality: Inverse Problem
 - To solve a business problem, we need to know:
     - relations between variables
     - distribution of inputs
@@ -69,9 +74,10 @@ actually, we could consider our objective as another variable, but since it depe
 we can compute output of the system
 - But, we don't know any of these thing!  
 - How can we find these? We are actually facing the inverse problem. 
-- We can observe examples of (inputs, outputs) and we want to discover the system itself, or at least  parts of it
-- From our domain knowledge an studiyng the system itself, we might e able to make some reasonable  
-assumption:
+- We can observe examples of (inputs, outputs) and we want to discover the system itself, or  
+at least parts of it
+- From our domain knowledge an studiyng the system itself, we might be able to make some  
+reasonable assumption:
     - Number of defective product is a bionomial random variable( but we still don't know its parameter)  
     - There is a relation between daily demand and weekday
     - Relation between y and x is linear(but we don't know what are its coefficients)
@@ -86,7 +92,7 @@ assumption:
 sure judgments
 - If a fund, beats the market 37 weeks in a 52 week year, what can we say about his weekly chance of  
 success?
-- If we observe, each dollar increase in marketing, results in $1.5$ dollar increase in sale...
+- If we observe, each dollar increase in marketing, results in $ 1.5 $ dollar increase in sale...
 - Here is our demand data, what is the distribution of demand? of course, we can not answer this with usuall certainty, we just can make some probabilistic reasoning
 
 ## probability to the rescue
@@ -201,16 +207,19 @@ The p-value is a cornerstone of statistical testing, used everywhere from medici
 P-values are crucial for making data-driven decisions.
 
 **Scenario**: You're running an A/B test on your website.
+
 * **Version A**: The original button.
 * **Version B**: A new, bright green button.
-* **Null Hypothesis ($ H_0 $)**: The button color has no effect on clicks. ($Conversion_A = Conversion_B$)
+* **Null Hypothesis ( $ H_0 $ ): The button color has no effect on clicks.  
+($ Conversion_A = Conversion_B $)
 
 **Results**: Version B gets more clicks. You run a statistical test and get a **p-value of 0.03**.
 
 **Interpretation**:
-* Since $ 0.03 < 0.05 $, the result is statistically significant.
+
+* Since $ 0.03 < 0.05 $ , the result is statistically significant.
 * There is only a 3% chance you would see this difference in clicks (or a larger one) if the green button truly had no effect.
-* **Decision**: You can be reasonably confident the effect is real. You reject $H_0$ and implement the green button.
+* **Decision**: You can be reasonably confident the effect is real. You reject $ H_0 $ and implement the green button.
 
 
 
@@ -221,9 +230,11 @@ P-values are crucial for making data-driven decisions.
 This is the single most important concept to understand. It's all about **conditional probability**.
 
 A p-value tells you:
+
 * $ P(\text{Data} | H_0 \text{ is True}) $ -> *The probability of seeing the evidence, assuming the person is innocent.*
 
 What you *want* to know is:
+
 * $ P(H_0 \text{ is True} | \text{Data}) $ -> *The probability the person is innocent, given the evidence.*
 
 **These are NOT the same thing!** Confusing them is called the **Prosecutor's Fallacy**.
@@ -238,6 +249,7 @@ What you *want* to know is:
 **The Prosecutor's Flawed Argument**: "The chance of a random match is 1 in 10,000. Therefore, there is only a 1 in 10,000 chance the suspect is innocent." **WRONG.**
 
 **Why it's wrong: The Base Rate Fallacy**
+
 * The prosecutor ignores the **base rate**: How many people *could* have been at the crime scene?
 * If the crime was in a city of 1,000,000 people, you'd expect about 100 people to match the DNA by pure chance!
 * The DNA evidence tells you the suspect is one of those 100 people, not that they are 99.99% guilty.
@@ -251,7 +263,8 @@ What you *want* to know is:
 A "significant" result doesn't mean it's a *meaningful* result.
 
 **The Birth Control Scare Example**:
-* A study found a new birth control pill "doubled the risk" of a blood clot (thrombosis). This was a statistically significant finding ($p < 0.05$).
+
+* A study found a new birth control pill "doubled the risk" of a blood clot (thrombosis). This was a statistically significant finding ($ p < 0.05 $).
 * Panic ensued, and many women stopped taking it.
 * **The Missing Context**: The original risk was incredibly small (1 in 7,000). Doubling it made it 2 in 7,000. The risk of getting a blood clot from pregnancy was far higher! The "significant" result was not practically important.
 
@@ -263,7 +276,7 @@ A "significant" result doesn't mean it's a *meaningful* result.
 
 Pressure to find "significant" results can lead to bad science.
 
-* **P-hacking**: Trying different things (deleting outliers, adding variables, stopping the test at a convenient time) until you get a $p < 0.05$. This is cheating.
+* **P-hacking**: Trying different things (deleting outliers, adding variables, stopping the test at a convenient time) until you get a $ p < 0.05 $. This is cheating.
 * **File Drawer Problem**: Studies with non-significant ("boring") results often don't get published or shared. We only see the successes, which makes effects look more robust than they really are.
 
 This creates a distorted view of reality and leads to investing in ideas that only worked due to luck. **Be skeptical** of amazing, one-off results. Demand replication!
@@ -291,7 +304,7 @@ This directly answers the question managers care about: "How likely is it that t
 Your job is to provide wisdom, not just numbers.
 
 1.  **Use P-values as a Detective, Not a Judge**: A low p-value is a clue that something interesting *might* be happening. It's a starting point for more investigation, not the final verdict.
-2.  **Mind Your Conditionals**: Always be clear if you're talking about $P(\text{Data} | \text{Hypothesis})$ or $P(\text{Hypothesis} | \text{Data})$.
+2.  **Mind Your Conditionals**: Always be clear if you're talking about $ P(\text{Data} | \text{Hypothesis}) $ or $ P(\text{Hypothesis} | \text{Data}) $.
 3.  **Context is King**: Never forget the base rate. A result is meaningless without context. How big is the effect? What's the ROI?
 4.  **Stay Skeptical**: Be aware of p-hacking and the file drawer problem. One study is just one study. Is there corroborating evidence? Can it be replicated?
 
