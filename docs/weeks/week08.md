@@ -110,20 +110,24 @@ and bayesian perspective
 - Is this food casuing cancer? 
 - Should I change my diet, because of all of these medical studies?
 - DEAD FISH DON’T READ MINDS
+e
+## we need an overview of [scientific method](../concepts/scientific_method.md)
 
 ## From Reductio ad absurdum to Reductio ad unlikely
 - How can we prove a theory?
 - When we increase our beleife in a theory?
 - If our observation are consistent with the theory?
-- If negation of theory results in 
+- If negation of theory results in contradiction?
 
 To confirm a theory, is it enough that our observation is consistent with that theory?
 ### Reductio ad absurdum
-1. Suppose the hypothesis H is true. 
-2. It follows from H that a certain fact F cannot be  the case. 
+To prove a theory $ T $ is true, we consider its negation, call it $ H_0 $
+1. Suppose the negation of target theory is true: $ H_0 $ is true. 
+2. It follows from $ H_0 $ that a certain fact F cannot be  the case. 
 3. But F is the case.  
 4. Therefore, H is false.
 
+- basically, we show(deductively) that negation of our target theory is inconsistent with observations(facts)
 
 ### Reductio ad unlikely
 
@@ -198,9 +202,13 @@ The p-value is a cornerstone of statistical testing, used everywhere from medici
 * **P-value Definition**: The probability of seeing our observed data (or something even more extreme), **assuming the null hypothesis ($ H_0 $) is true.**
     * $ p = P(\text{Observed Data or more extreme} | H_0 \text{ is true}) $
 
-* **The Magic Threshold**: Conventionally, if $ p < 0.05 $, we call the result "statistically significant." This suggests the outcome was too unlikely to have occurred by random chance alone, so we **reject the null hypothesis**.
+* **P-value if a measure of surprise!** it basically shows how surpring given extremness of  
+our observation is
 
----
+* **The Magic Threshold**: Conventionally, if $ p < 0.05 $, we call the result  
+**"statistically significant"** This suggests the outcome was too unlikely to have occurred by random chance alone, so we **reject the null hypothesis**.
+
+
 
 ### P-values in Business: A/B Testing**
 
@@ -210,7 +218,7 @@ P-values are crucial for making data-driven decisions.
 
 * **Version A**: The original button.
 * **Version B**: A new, bright green button.
-* **Null Hypothesis ( $ H_0 $ ): The button color has no effect on clicks.  
+* **Null Hypothesis ( $ H_0 $ )**: The button color has no effect on clicks.  
 ($ Conversion_A = Conversion_B $)
 
 **Results**: Version B gets more clicks. You run a statistical test and get a **p-value of 0.03**.
@@ -219,9 +227,19 @@ P-values are crucial for making data-driven decisions.
 
 * Since $ 0.03 < 0.05 $ , the result is statistically significant.
 * There is only a 3% chance you would see this difference in clicks (or a larger one) if the green button truly had no effect.
-* **Decision**: You can be reasonably confident the effect is real. You reject $ H_0 $ and implement the green button.
+* **Decision**: You can be reasonably confident(how much) the effect is real. You reject $ H_0 $ and implement the green button.
 
+**Question**: How confident are you that the effect is reall? How likely?  
+What is the probability that effect is real?  
 
+---
+###  The Prosecutor's Fallacy & The Base Rate Fallacy
+
+**Scenario**: A crime is committed. DNA evidence at the scene matches a suspect.
+* The chance of a random person matching the DNA is 1 in 10,000. (This is like a p-value).
+
+**The Prosecutor's Argument**: "The chance of a random match is 1 in 10,000. Therefore, there is  
+only a 1 in 10,000 chance the suspect is innocent." **WRONG.**
 
 ---
 
@@ -254,7 +272,6 @@ What you *want* to know is:
 * If the crime was in a city of 1,000,000 people, you'd expect about 100 people to match the DNA by pure chance!
 * The DNA evidence tells you the suspect is one of those 100 people, not that they are 99.99% guilty.
 
-**Business Impact**: Think about fraud detection. Fraud is rare (low base rate). Even a very accurate detection algorithm will produce a high number of false positives. Don't assume every flagged transaction is fraudulent!
 
 ---
 
