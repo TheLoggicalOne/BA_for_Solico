@@ -106,4 +106,3 @@ This is where the scientific method hands the baton to statistical inference. Th
 3.  **The Meaning of the P-value**: The p-value is the tool that quantifies that "strangeness." It's the probability of seeing a difference as large as the one we observed, *assuming the null hypothesis is true*. A small p-value tells us that our result is very surprising if there's truly no effect, giving us a reason to reject the null hypothesis.
 
 In short, **statistical inference is the mathematical toolkit for executing the scientific method in a world full of noise, randomness, and uncertainty.** It gives us the rules for weighing evidence and making principled conclusions without fooling ourselves.
-

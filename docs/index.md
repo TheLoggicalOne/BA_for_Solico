@@ -6,7 +6,11 @@ This is the course hub for the 14-week training program at Solico Group on:
     - Data Analysis
     - Decision Modeling
 
+
+
+
 ## Latest Updates and To Do
+### Prepare for [week 9](weeks/week09.md)
 ### Prepare for Week 8, continue working on previous weeks class and problem
 - Continue working on [week 6 page](weeks/week06.md) problems
 - Read chapter 5 and 6 of the book, specially:
