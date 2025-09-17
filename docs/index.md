@@ -14,8 +14,9 @@ This is the course hub for the 14-week training program at Solico Group on:
 - Review [week 8](weeks/week8.md) and work on its problems
 - Work on [week 6](weeks/week06.md) problems
     - specially prolem 2 and 7 and 8
-- Here are slides for week 10 and parts of 11:
-    - 
+- You can find related material for week 10 and 11 in [MIT Probability ans statistics course](https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/pages/classes-reading-and-in-class-materials/)
+Here are slides for week 10 and parts of 11:
+    - Week 3 and 11 and 12 materials
 
 ### Prepare for [week 9](weeks/week09.md)
 ### Prepare for Week 8, continue working on previous weeks class and problem
