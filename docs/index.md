@@ -10,6 +10,13 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 
 ## Latest Updates and To Do
+### Prepare for [week 11](weeks/week10.md)
+- Review [week 8](weeks/week8.md) and work on its problems
+- Work on [week 6](weeks/week06.md) problems
+    - specially prolem 2 and 7 and 8
+- Here are slides for week 10 and parts of 11:
+    - 
+
 ### Prepare for [week 9](weeks/week09.md)
 ### Prepare for Week 8, continue working on previous weeks class and problem
 - Continue working on [week 6 page](weeks/week06.md) problems
