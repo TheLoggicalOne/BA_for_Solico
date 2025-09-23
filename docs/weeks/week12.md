@@ -75,4 +75,19 @@ Joe has the disease?
 - If Joe  takes the new test and his result is negative , what is the probability that  
 Joe has the disease?
 
-### Solve [Problem 2 of week 6](weeks/week06/#prolem-2-estimate-chance-of-success-of-bernouli-random-variable-from-data)
+### Problem 2: Solve [Problem 2 of week 6](../weeks/week06.md/#prolem-2-estimate-chance-of-success-of-bernouli-random-variable-from-data)
+
+
+### Prolem 3: Solve [Problem 3 of week 6](../weeks/week06.md/#problem-3-estimating-production-volume-from-single-data)
+
+### Prolem 4: Solve [Problem 7 of week 6](../weeks/week06.md/#problem-7-quality-control-how-many-of-them-will-be-defective)
+
+### Prolem 5: Solve [Problem 8 of week 6](../weeks/week06.md/#problem-8-work-on-example-59-from-the-book-is-this-mutual-fund-really-a-winner)
+
+### Prolem 6: Solve [Problem 5 of week 5](../weeks/week06.md/#problem-5-solve-combination-of-version-4-and-6-of-ncaa-t-shirt-problem)
+
+http://127.0.0.1:8000/BA_for_Solico/weeks/week05/#problem-5-solve-combination-of-version-4-and-6-of-ncaa-t-shirt-problem
+
+
+### Prolem 7: Solve [Problem 6 of week 5](../weeks/week06.md/#problem-6-solve-combination-of-version-5-and-6-of-ncaa-t-shirt-problem)
+

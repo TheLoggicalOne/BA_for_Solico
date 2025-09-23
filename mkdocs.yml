@@ -83,8 +83,8 @@ nav:
     - 'Week 6: Probaility and Simulation': 'weeks/week06.md'
     - 'Week 8: Probailistic Reasoning': 'weeks/week08.md'
     - 'Week 9: Data Manipulation, Statistical Inference': 'weeks/week09.md'
-    - 'Week 11: Bayesian vs Frequntist Inference'
-    - 'Week 12: Inference and Learning'
+    - 'Week 11: Bayesian vs Frequntist Inference': 'weeks/week11.md'
+    - 'Week 12: Inference and Learning': 'weeks/week12.md'
     - 'Week 14: Final Projects & Future of Solico': 'weeks/week14.md'
   - 'Concepts & Principles': 
     - 'Overview': 'concepts/index.md'
