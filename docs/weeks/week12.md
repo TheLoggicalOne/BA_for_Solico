@@ -84,10 +84,9 @@ Joe has the disease?
 
 ### Prolem 5: Solve [Problem 8 of week 6](../weeks/week06.md/#problem-8-work-on-example-59-from-the-book-is-this-mutual-fund-really-a-winner)
 
-### Prolem 6: Solve [Problem 5 of week 5](../weeks/week06.md/#problem-5-solve-combination-of-version-4-and-6-of-ncaa-t-shirt-problem)
-
-http://127.0.0.1:8000/BA_for_Solico/weeks/week05/#problem-5-solve-combination-of-version-4-and-6-of-ncaa-t-shirt-problem
+### Prolem 6: Solve [Problem 5 of week 5](../weeks/week05.md/#problem-5-solve-combination-of-version-4-and-6-of-ncaa-t-shirt-problem)
 
 
-### Prolem 7: Solve [Problem 6 of week 5](../weeks/week06.md/#problem-6-solve-combination-of-version-5-and-6-of-ncaa-t-shirt-problem)
+
+### Prolem 7: Solve [Problem 6 of week 5](../weeks/week05.md/#problem-6-solve-combination-of-version-5-and-6-of-ncaa-t-shirt-problem)
 

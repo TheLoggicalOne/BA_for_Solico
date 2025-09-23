@@ -11,9 +11,10 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 ## Latest Updates and To Do
 ### Prepare for [week 12](weeks/week12.md)
-- Work on Excel file for Bayesian updating [here]()
-- Work on problems mentioned [here](weeks/week12.md) 
-- Solve [Problem 2 of week 6](weeks/week06/#prolem-2-estimate-chance-of-success-of-bernouli-random-variable-from-data)
+- Work on Excel file for Bayesian updating [here](https://docs.google.com/spreadsheets/d/1AidxnmM2aVHaECRNcB5y2dhm4rOk9Cxe/edit?usp=drive_link&ouid=106777682404064505117&rtpof=true&sd=true)
+- Work on problems mentioned [here](weeks/week12.md)
+    - You can use excel file(sheets 1 and 3)
+
 ### Prepare for [week 11](weeks/week11.md)
 - Review [week 8](weeks/week8.md) and work on its problems
 - Work on [week 6](weeks/week06.md) problems
