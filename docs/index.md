@@ -11,7 +11,9 @@ This is the course hub for the 14-week training program at Solico Group on:
 
 ## Latest Updates and To Do
 ### Prepare for [week 12](weeks/week12.md)
-- Work on Excel file for Bayesian updating [here](https://docs.google.com/spreadsheets/d/1AidxnmM2aVHaECRNcB5y2dhm4rOk9Cxe/edit?usp=drive_link&ouid=106777682404064505117&rtpof=true&sd=true)
+- Work on Excel file for Bayesian updating [here](https://docs.google.com/spreadsheets/d/1AidxnmM2aVHaECRNcB5y2dhm4rOk9Cxe/edit?usp=sharing&ouid=106777682404064505117&rtpof=true&sd=true)
+
+
 - Work on problems mentioned [here](weeks/week12.md)
     - You can use Bayes excel file to solve all of them!
     - You can copy `BayesianUpdate_For_Bernouli` and change priors and inputs to sollve different  
