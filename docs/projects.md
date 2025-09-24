@@ -2,6 +2,11 @@
 
 The goal of this course is to build practical, applicable skills. The projects and competition are designed to help you apply the concepts we learn to solve realistic business problems.
 
+## Your Main Project
+- This is a kaggle competition, with a rich data set aout retail sale in different product families  
+- Our goal is finding relations and associations and insights, and ultimately demand prediction
+- [Here](https://www.kaggle.com/competitions/store-sales-time-series-forecasting) is the link to original kaggle competition
+- Here is the link to [data set](https://drive.google.com/file/d/1zPS2SfSLTLEZGCB5Wp83rdMAY36DFtyR/view?usp=sharing)
 ## Mini-Projects
 Throughout the course, there will be **3+ mini-projects** focused on applying specific analytical techniques (e.g., simulation, regression, optimization) to a business case. These will be guided exercises designed to build your confidence and modeling skills in Excel.
 

@@ -19,6 +19,8 @@ This is the course hub for the 14-week training program at Solico Group on:
     - You can copy `BayesianUpdate_For_Bernouli` and change priors and inputs to sollve different  
     problems
 
+- Start working on [your project](projects/#your-main-project)
+
 ### Prepare for [week 11](weeks/week11.md)
 - Review [week 8](weeks/week8.md) and work on its problems
 - Work on [week 6](weeks/week06.md) problems
